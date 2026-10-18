@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ohmward Careers</title>
+<meta name="description" content="Fresh electrical engineering internships, co-ops and new grad roles from 5,000+ companies, checked every 15 minutes.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+<div class="shell"><main>
+  <h1>Apply while roles are fresh.</h1>
+  <p class="lede" id="lede">Fresh EE internships, co-ops and new grad roles, checked every 15 minutes. Pick an area of EE to see its roles.</p>
+  <ul class="grid" id="areas"></ul>
+  <footer>Every role comes straight from the company's own career site and is re-checked every 15 minutes. Made by Hamzah Shaoob, EE student.</footer>
+</main></div>
+
+<script src="common.js?v=11"></script>
+<script>
+chrome("jobs");
+(async () => {
+  const data = await loadJobs(), isNew = j => Date.now() - new Date(j.found) < 864e5;
+  if (data.updated) $("lede").innerHTML = `<b>${data.jobs.length}</b> fresh EE internships, co-ops and new grad roles from <b>${(data.boards || 5000).toLocaleString()}</b> company career sites, updated ${minutesAgo(data.updated)}. Pick an area to see its roles.`;
+  $("areas").innerHTML = Object.entries(AREAS).map(([k, [name, kiss]]) => {
+    const js = data.jobs.filter(j => inArea(k, j)), n = js.filter(isNew).length, cos = new Set(js.map(j => j.company)).size;
+    const paid = js.map(j => j.hr).filter(Boolean).sort((a, b) => a - b), mid = paid[Math.floor(paid.length / 2)];
+    return `<li><a class="tile area" href="jobs.html?area=${k}"><div class="in">
+        <div class="tile-top"><h3>${name}</h3>${n ? `<span class="age">${svg("clock")} ${n} new</span>` : ""}</div>
+        <div class="pills"><span class="pill">${js.length} role${js.length === 1 ? "" : "s"}</span><span class="pill">${cos} compan${cos === 1 ? "y" : "ies"}</span>
+          ${mid ? `<span class="pill pay">~$${mid}/hr typical</span>` : ""}</div>
+        <div class="co"><span class="ic">${icon(k)}</span><span>${kiss}</span></div></div>
+      <div class="foot"><span>See roles</span><span aria-hidden="true">→</span></div></a></li>`;
+  }).join("");
+})();
+</script>
+</body>
+</html>

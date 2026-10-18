@@ -1,0 +1,55 @@
+name: scan
+# Every 15 minutes: scan 500 boards, verify postings, publish docs/jobs.json (the site), email subscribers, then idle until the next quarter hour.
+# GitHub's cron is unreliable and delayed, so each run starts the next one itself (the "next" job).
+on:
+  schedule:
+    - cron: "5 * * * *"      # backup only: restarts the chain if it ever breaks
+  workflow_dispatch:
+concurrency:
+  group: scan              # never two scans at once; the next one waits
+  cancel-in-progress: false
+permissions:
+  contents: write          # to save docs/jobs.json and state back to the repo (this also redeploys the site)
+  actions: write           # to start the next run, or cancel a duplicate
+env:
+  GH_TOKEN: ${{ github.token }}
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Step aside if a scan is already running or queued
+        if: github.triggering_actor != 'github-actions[bot]'   # the backup schedule, or a manual click
+        run: |
+          alive=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/scan.yml/runs?per_page=5" -q "[.workflow_runs[] |
+            select(.id != $GITHUB_RUN_ID and .status != \"completed\")] | length")
+          if [ "$alive" != 0 ]; then echo "chain is running; not starting a second one"; gh run cancel "$GITHUB_RUN_ID" -R "$GITHUB_REPOSITORY"; sleep 60; fi
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python jobscan.py test
+      - run: python jobscan.py   # scan, verify, publish the board, email subscribers
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # higher GitHub API limit for logo lookups
+      - name: Save state
+        if: ${{ !cancelled() }}   # keep what was learned even if the run failed after emailing (a stepped-aside run has nothing)
+        run: |
+          git config user.name "jobscan-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || { git commit -qm "scan state"; git pull -q --rebase && git push -q; }
+  next:
+    needs: scan
+    if: always() && needs.scan.result != 'cancelled' && (needs.scan.result == 'success' || github.triggering_actor == 'github-actions[bot]')   # a backup run chains only if it scanned
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Wait for the next quarter hour, then start the next scan
+        run: |
+          sleep $(( 900 - $(date +%s) % 900 ))
+          gh workflow run scan.yml -R "$GITHUB_REPOSITORY" --ref main

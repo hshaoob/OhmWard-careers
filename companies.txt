@@ -1,0 +1,74 @@
+# Any company careers/job URL on a supported system, one per line (optional "# Display Name"). Checked every scan.
+# Test one with:  python3 jobscan.py try <url>
+# Formats: Workday / Greenhouse / Lever / Ashby / SmartRecruiters / Oracle / iCIMS / Taleo job-board URLs as-is.
+#   Jibe:          https://careers.X.com?jibe
+#   SuccessFactors:https://jobs.X.com?sfrmk          (sites with /job/City-Title-ST-12345/ links)
+#   Phenom:        https://careers.X.com/global/en?phenom
+#   Eightfold:     https://X.eightfold.ai   or   https://careers.X.com/careers?domain=X.com
+
+# semis
+https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite                         # NVIDIA
+https://intel.wd1.myworkdayjobs.com/External                                          # Intel
+https://careers.amd.com?jibe                                                          # AMD
+https://careers.qualcomm.com/careers?domain=qualcomm.com                              # Qualcomm
+https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/            # Texas Instruments
+https://analogdevices.wd1.myworkdayjobs.com/External                                  # Analog Devices
+https://micron.wd1.myworkdayjobs.com/External                                         # Micron
+https://marvell.wd1.myworkdayjobs.com/MarvellCareers                                  # Marvell
+https://nxp.wd3.myworkdayjobs.com/careers                                             # NXP
+https://latticesemi.wd5.myworkdayjobs.com/latticesemiconductorscareers                # Lattice Semiconductor
+https://sec.wd3.myworkdayjobs.com/Samsung_Careers                                     # Samsung
+https://careers.skyworksinc.com?sfrmk                                                 # Skyworks
+https://careers.qorvo.com?sfrmk                                                       # Qorvo
+https://careers.smartrecruiters.com/RenesasElectronics                                # Renesas
+https://careers.lamresearch.com/careers?domain=lamresearch.com                        # Lam Research
+https://careers.appliedmaterials.com/careers?domain=appliedmaterials.com              # Applied Materials
+https://jobs.keysight.com?jibe                                                        # Keysight
+https://jobs.supermicro.com?sfrmk                                                     # Supermicro
+https://jobs.advanced-energy.com?sfrmk                                                # Advanced Energy
+# aerospace / defense
+https://lockheedmartin.eightfold.ai                                                   # Lockheed Martin
+https://careers.rtx.com/global/en?phenom                                              # RTX (Raytheon, Collins, Pratt)
+https://jobs.baesystems.com/global/en?phenom                                          # BAE Systems
+https://jobs.l3harris.com?sfrmk                                                       # L3Harris
+https://careers-gdms.icims.com/jobs                                                   # General Dynamics Mission Systems
+https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site                      # Northrop Grumman
+https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS                                 # Boeing
+https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin                                   # Blue Origin
+https://job-boards.greenhouse.io/spacex                                               # SpaceX
+https://job-boards.greenhouse.io/andurilindustries                                    # Anduril
+https://jobs.lever.co/shieldai                                                        # Shield AI
+https://careers.huntingtoningalls.com?sfrmk                                           # Huntington Ingalls
+https://careers.gulfstream.com?happydance                                             # Gulfstream
+https://careers.viasat.com?jibe                                                       # Viasat
+https://careers.garmin.com?jibe                                                       # Garmin
+https://textron.taleo.net/careersection/textron/jobsearch.ftl                         # Textron
+https://careers-jobyaviation.icims.com/jobs                                           # Joby Aviation
+https://wisk.wd108.myworkdayjobs.com/Wisk_Careers                                     # Wisk
+# auto / EV
+https://careers.rivian.com?jibe                                                       # Rivian
+https://generalmotors.wd5.myworkdayjobs.com/Careers_GM                                # General Motors
+https://jobs.paccar.com?sfrmk                                                         # PACCAR
+https://jobs.bmwgroup.com?sfrmk                                                       # BMW
+# industrial / power / utilities
+https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/   # Honeywell
+https://eaton.eightfold.ai                                                            # Eaton
+https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/          # Emerson
+https://careers.se.com?jibe                                                           # Schneider Electric
+https://careers.hubbell.com?sfrmk                                                     # Hubbell
+https://careers.pge.com?sfrmk                                                         # PG&E
+https://jobs.nexteraenergy.com?sfrmk                                                  # NextEra Energy
+https://careers.dominionenergy.com?sfrmk                                              # Dominion Energy
+https://careers.westinghousenuclear.com?sfrmk                                         # Westinghouse
+https://careers.tranetechnologies.com/global/en?phenom                                # Trane Technologies
+https://carrier.wd5.myworkdayjobs.com/jobs                                            # Carrier
+https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA                            # BD
+https://rosendin.wd1.myworkdayjobs.com/Careers                                        # Rosendin
+https://hdr.taleo.net/careersection/ex/jobsearch.ftl                                  # HDR
+https://corningjobs.corning.com?sfrmk                                                 # Corning
+# medical
+https://dexcom.wd1.myworkdayjobs.com/Dexcom                                           # Dexcom
+https://insulet.wd5.myworkdayjobs.com/InsuletCareers                                  # Insulet
+# networking
+https://careers.cisco.com/global/en?phenom                                            # Cisco
+https://careers.hpe.com/us/en?phenom                                                  # HPE

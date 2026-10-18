@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roles · Ohmward Careers</title>
+<meta name="description" content="Fresh electrical engineering roles, checked every 15 minutes.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+<div class="shell"><main>
+  <div class="filters">
+    <details class="fp" id="fp-area"><summary></summary><div class="pop" id="area-list"></div></details>
+    <details class="fp" id="fp-kind"><summary>Role type</summary><div class="pop"><div class="chips" id="kinds"></div></div></details>
+    <details class="fp" id="fp-loc"><summary>Location</summary><div class="pop wide">
+      <h4>Work style</h4><div class="chips" id="work"></div>
+      <h4>States</h4><div class="chips states" id="states"></div><p>Remote roles always count as in your area.</p></div></details>
+    <details class="fp" id="fp-pay"><summary>Salary</summary><div class="pop">
+      <label class="small">At least $<input class="field" type="number" id="min_pay" min="0" max="200" style="width:80px"> per hour</label>
+      <label class="check small" style="margin-top:8px"><input type="checkbox" id="unlisted_pay"> Include roles that don't list pay</label>
+      <p>Yearly pay is converted to hourly (÷ 2,080 hours).</p></div></details>
+    <details class="fp" id="fp-ease"><summary>Apply process</summary><div class="pop">
+      <label class="check"><input type="radio" name="ease" value="3"> Any</label>
+      <label class="check"><input type="radio" name="ease" value="2"> Skip long applications</label>
+      <label class="check"><input type="radio" name="ease" value="1"> Quick apply only</label>
+      <p>Quick: one page and your resume (Greenhouse, Lever, Ashby). Long: make an account and retype your resume (Workday, Taleo, Oracle).</p></div></details>
+    <details class="fp" id="fp-days"><summary>Date posted</summary><div class="pop">
+      <label class="check"><input type="radio" name="days" value="0"> Last 14 days</label>
+      <label class="check"><input type="radio" name="days" value="1"> Last 24 hours</label>
+      <label class="check"><input type="radio" name="days" value="3"> Last 3 days</label>
+      <label class="check"><input type="radio" name="days" value="7"> Last week</label></div></details>
+    <details class="fp" id="fp-more"><summary>More filters</summary><div class="pop wide right">
+      <h4>Start and graduation</h4><div id="when"></div>
+      <h4>Eligibility</h4>
+      <label class="check small"><input type="checkbox" id="no_citizen"> Hide roles that need US citizenship, a green card or a clearance</label>
+      <label class="check small"><input type="checkbox" id="need_sponsor"> Hide roles that won't sponsor a visa</label>
+      <h4>Dream companies</h4>
+      <div id="favorites"></div>
+      <h4>Your skills</h4><div id="skills"></div>
+      <h4>My roles</h4>
+      <label class="check small"><input type="checkbox" id="showDone"> Show roles I applied to or hid</label>
+      <label class="check small"><input type="checkbox" id="savedOnly"> Only roles I saved</label></div></details>
+    <button class="linkbtn" id="clear" hidden>Clear all</button>
+  </div>
+
+  <div class="status"><span id="count">Loading…</span>
+    <label>Sort by: <select id="sort"><option value="new">Newest</option><option value="pay">Highest pay</option>
+      <option value="ease">Quickest to apply</option><option value="fit">Best skill match</option></select></label></div>
+  <ul class="grid jobs" id="roles" aria-live="polite"></ul>
+</main></div>
+
+<script src="common.js?v=11"></script>
+<script>
+chrome(new URLSearchParams(location.search).get("saved") ? "saved" : "jobs");
+const url = new URLSearchParams(location.search), area = AREAS[url.get("area")] ? url.get("area") : "all";
+let data = {jobs: []}, marks = load("marks", {}), limit = 40, perCo = {};
+let view = {sort: "new", showDone: false, days: 0, ...load("view", {}), q: url.get("q") || ""};
+if (url.get("saved")) view.savedOnly = true;  // the Saved page
+const company = url.get("company");  // "View all": every role at one company, one tile each
+const idx = {};  // company -> which of its roles its tile is showing
+const saveView = () => store("view", view);
+const changed = () => { savePrefs(); saveView(); limit = 40; render(); };
+
+function controls() {
+  $("area-list").innerHTML = Object.entries(AREAS).map(([k, [name]]) =>
+    `<a class="opt" href="jobs.html?area=${k}" ${k === area ? 'aria-current="page"' : ""}>${icon(k)}${name}</a>`).join("");
+  chips($("kinds"), "kinds", KINDS, changed);
+  whenPicker($("when"), changed);
+  tagInput($("skills"), "skills", null, changed, "Type a skill", fixSkill);
+  drawFavs = tagInput($("favorites"), "favorites", companyLogos(data), changed, "Add a company");
+  chips($("work"), "work", WORK, changed);
+  chips($("states"), "states", STATES, changed);
+  document.querySelector(`input[name=days][value="${view.days}"]`).checked = true;
+  document.querySelector(`input[name=ease][value="${prefs.max_ease}"]`).checked = true;
+  $("min_pay").value = prefs.min_pay || "";
+  $("unlisted_pay").checked = prefs.unlisted_pay;
+  $("no_citizen").checked = prefs.no_citizen;
+  $("need_sponsor").checked = prefs.need_sponsor;
+  $("showDone").checked = view.showDone;
+  $("savedOnly").checked = !!view.savedOnly;
+  $("sort").value = view.sort;
+}
+let drawFavs = () => {};
+document.querySelectorAll("input[name=days]").forEach(r => r.onchange = () => { view.days = +r.value; changed(); });
+document.querySelectorAll("input[name=ease]").forEach(r => r.onchange = () => { prefs.max_ease = +r.value; changed(); });
+$("min_pay").oninput = e => { prefs.min_pay = Math.max(0, +e.target.value || 0); changed(); };
+for (const id of ["unlisted_pay", "no_citizen", "need_sponsor"]) $(id).onchange = e => { prefs[id] = e.target.checked; changed(); };
+$("showDone").onchange = e => { view.showDone = e.target.checked; changed(); };
+$("savedOnly").onchange = e => { view.savedOnly = e.target.checked; changed(); };
+$("sort").onchange = e => { view.sort = e.target.value; changed(); };
+$("q").oninput = e => { view.q = e.target.value; limit = 40; render(); };
+$("bar").onsubmit = e => { e.preventDefault(); view.q = $("q").value; render(); };
+$("clear").onclick = () => {
+  Object.assign(prefs, {kinds: [], states: [], work: [], start: "", grad: "", min_pay: 0, unlisted_pay: true, max_ease: 3, no_citizen: false, need_sponsor: false});
+  view.days = 0; view.q = ""; $("q").value = ""; controls(); changed();
+};
+
+// Filter buttons show what's on: "Role type · 2", highlighted
+function labels() {
+  const set = (id, on, text) => { const s = document.querySelector(`#fp-${id} > summary`); s.textContent = text; s.classList.toggle("on", !!on); };
+  const where = [...prefs.work, ...(prefs.states.length > 2 ? [`${prefs.states.length} states`] : prefs.states)];
+  const more = [prefs.start, prefs.grad, prefs.no_citizen, prefs.need_sponsor, prefs.favorites.length, prefs.skills.length, view.showDone, view.savedOnly].filter(Boolean).length;
+  set("area", true, AREAS[area][0]);
+  set("kind", prefs.kinds.length, prefs.kinds.length ? prefs.kinds.join(", ") : "Role type");
+  set("loc", where.length, where.length ? where.join(", ") : "Location");
+  set("pay", prefs.min_pay || !prefs.unlisted_pay, prefs.min_pay ? `$${prefs.min_pay}+/hr` : !prefs.unlisted_pay ? "Pay listed" : "Salary");
+  set("ease", prefs.max_ease < 3, prefs.max_ease === 1 ? "Quick apply only" : prefs.max_ease === 2 ? "No long applications" : "Apply process");
+  set("days", view.days, view.days ? `Last ${view.days === 1 ? "24 hours" : view.days === 7 ? "week" : `${view.days} days`}` : "Date posted");
+  set("more", more, more ? `More filters · ${more}` : "More filters");
+  $("clear").hidden = !(view.q || view.days || ["kinds", "states", "work"].some(k => prefs[k].length) || prefs.start || prefs.grad
+    || prefs.min_pay || !prefs.unlisted_pay || prefs.max_ease < 3 || prefs.no_citizen || prefs.need_sponsor);
+}
+
+let saved = load("saved", {});
+
+// One HiringCafe-style tile per role
+// One tile per company; arrows and dots flip between its roles, "View all" lists them all
+function tile(js) {
+  const i = Math.min(idx[js[0].company] || 0, js.length - 1), j = js[i];
+  const fav = favorite(prefs, j), mark = marks[j.url], link = http(j.url) ? esc(j.url) : "#";
+  const mine = mySkills(j), asks = j.skills.slice(0, 5);
+  const warn = [j.citizen && "Needs US citizenship, a green card or a clearance", j.nosponsor && "No visa sponsorship"].filter(Boolean).join(". ");
+  const about = data.about?.[j.company] || `${perCo[j.company]} open EE role${perCo[j.company] === 1 ? "" : "s"} on the board right now.`;
+  const nav = js.length < 2 ? "" : `<span class="flip"><button data-step="-1" aria-label="Previous role">‹</button>${js.length <= 6
+      ? js.map((_, k) => `<button class="dot ${k === i ? "on" : ""}" data-go="${k}" aria-label="Role ${k + 1} of ${js.length}"></button>`).join("")
+      : `<span class="of">${i + 1} / ${js.length}</span>`}<button data-step="1" aria-label="Next role">›</button></span>`;
+  return `<li class="jt ${mark ? "done" : ""}" data-co="${esc(j.company)}"><div class="in">
+      <div class="tile-top"><h3><a href="${link}" target="_blank" rel="noopener">${esc(j.title)}</a></h3>
+        <span class="when" title="Posted ${ago(j.posted)}">${svg("clock")}${short(j.posted)}</span></div>
+      <div class="pills"><span class="op loc">${svg("pin")}${esc(j.loc ? (/\b(US|USA|United States)\b/.test(j.loc) ? j.loc : `${j.loc}, United States`) : "Location not listed")}</span></div>
+      <div class="pills">${j.pay ? `<span class="op pay">${esc(j.pay)}</span>` : ""}<span class="op ${j.work === "Remote" ? "blue" : ""}">${esc(j.work)}</span>
+        <span class="op">${esc(j.kind)}</span>${j.term ? `<span class="op">${esc(j.term)}</span>` : ""}
+        ${j.ease === 1 ? `<span class="op blue" title="One page and your resume, via ${esc(j.ats)}">Quick apply</span>` : j.ease === 3 ? `<span class="op muted" title="Account + retyped resume, via ${esc(j.ats)}">Long application</span>` : ""}</div>
+      <div class="co">${logo(j)}<span class="about"><b>${esc(j.company)}</b>${fav ? ` <span class="tag">★ Dream company</span>` : ""}: ${esc(about)}</span></div>
+      ${asks.length ? `<div class="req">${svg("doc")}<span>${mine.length ? `<span class="tag">${mine.length} of your skills</span> ` : ""}Asks for ${esc(asks.join(", "))}.</span></div>` : ""}
+      ${warn ? `<div class="req w">${svg("doc")}<span>${warn}.</span></div>` : ""}</div>
+    <div class="jfoot"><a href="${link}" target="_blank" rel="noopener">Job Posting ${svg("ext")}</a>${nav}
+      <a class="all" href="jobs.html?area=all&company=${encodeURIComponent(j.company)}">View all${js.length > 1 ? ` ${js.length}` : ""}</a></div>
+    <div class="under"><span class="acts">
+        <button data-save="${esc(j.url)}" title="Save">${svg("star")}${saved[j.url] ? "Saved" : "Save"}</button>
+        ${mark ? `<button data-url="${esc(j.url)}" data-mark="">Undo ${mark}</button>`
+          : `<button data-url="${esc(j.url)}" data-mark="applied">Applied</button><button data-url="${esc(j.url)}" data-mark="hidden">Hide</button>`}
+        <button data-follow="${esc(j.company)}">${fav ? "Following" : "Follow"}</button></span>
+      <a class="first" href="${link}" target="_blank" rel="noopener">Apply Now ›</a></div></li>`;
+}
+let groups = {};  // company -> its matching roles, in sort order
+$("roles").onclick = e => {
+  if (e.target.closest("#more")) { limit += 40; return render(); }
+  const flip = e.target.closest("[data-step],[data-go]");
+  if (flip) {  // re-draw just this tile so the page doesn't jump
+    const li = flip.closest("li"), js = groups[li.dataset.co], n = js.length, cur = idx[li.dataset.co] || 0;
+    idx[li.dataset.co] = flip.dataset.go != null ? +flip.dataset.go : (cur + +flip.dataset.step + n) % n;
+    return li.outerHTML = tile(js);
+  }
+  const f = e.target.closest("[data-follow]"), m = e.target.closest("[data-mark]"), sv = e.target.closest("[data-save]");
+  if (f) {
+    const name = f.dataset.follow, i = prefs.favorites.findIndex(x => name.toLowerCase().includes(x.toLowerCase()));
+    if (i >= 0) prefs.favorites.splice(i, 1); else prefs.favorites.push(name);
+    drawFavs(); savePrefs(); return render();
+  }
+  if (sv) { if (saved[sv.dataset.save]) delete saved[sv.dataset.save]; else saved[sv.dataset.save] = 1; store("saved", saved); return render(); }
+  if (m) { if (m.dataset.mark) marks[m.dataset.url] = m.dataset.mark; else delete marks[m.dataset.url]; store("marks", marks); render(); }
+};
+
+function render() {
+  labels();
+  const q = view.q.trim().toLowerCase(), fit = j => mySkills(j).length;
+  const recent = j => !view.days || Date.now() - new Date(j.posted) < view.days * 864e5;
+  const here = data.jobs.filter(j => inArea(area, j));
+  const shown = here.filter(j => wants({...prefs, sectors: []}, j) && recent(j) && (view.showDone || !marks[j.url]) && (!view.savedOnly || saved[j.url])
+    && (!q || `${j.title} ${j.company} ${j.loc} ${j.skills.join(" ")}`.toLowerCase().includes(q)) && (!company || j.company === company));
+  const by = {new: (a, b) => new Date(b.posted) - new Date(a.posted), fit: (a, b) => fit(b) - fit(a),
+              pay: (a, b) => (b.hr ?? -1) - (a.hr ?? -1), ease: (a, b) => a.ease - b.ease}[view.sort];
+  shown.sort((a, b) => favorite(prefs, b) - favorite(prefs, a) || by(a, b) || new Date(b.posted) - new Date(a.posted));
+  const cos = new Set(shown.map(j => j.company)).size;
+  $("count").innerHTML = company
+    ? `<i>${shown.length} role${shown.length === 1 ? "" : "s"}</i> at <b>${esc(company)}</b> · <a href="jobs.html?area=all">← All companies</a>`
+    : `<i>${shown.length.toLocaleString()} role${shown.length === 1 ? "" : "s"}</i> · ${cos} compan${cos === 1 ? "y" : "ies"} – ${esc(AREAS[area][0])} – United States`;
+  groups = {};
+  for (const j of shown) (groups[company ? j.url : j.company] ||= []).push(j);  // on a company's own page, one tile per role
+  const tiles = Object.values(groups);
+  $("roles").innerHTML = !shown.length
+    ? `<li class="empty" style="grid-column:1/-1">No roles match these filters right now.<br><a href="alerts.html">Get an email</a> the moment one does.</li>`
+    : tiles.slice(0, limit).map(tile).join("") + (tiles.length > limit ? `<li class="center" style="grid-column:1/-1"><button class="btn quiet" id="more">Show more companies</button></li>` : "");
+}
+
+(async () => {
+  data = await loadJobs();
+  for (const j of data.jobs) perCo[j.company] = (perCo[j.company] || 0) + 1;
+  document.title = `${company || AREAS[area][0]} · Ohmward Careers`;
+  controls(); render();
+})();
+</script>
+</body>
+</html>

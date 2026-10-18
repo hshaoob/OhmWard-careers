@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alerts · Ohmward Careers</title>
+<meta name="description" content="Get new EE internships, co-ops and new grad roles emailed to you the moment they're posted.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+<div class="shell"><main class="narrow">
+  <h1>Hear about new roles first.</h1>
+  <p class="lede">Tell us what you want once. We'll email you only the roles that fit, the moment they're posted. Free, no password.</p>
+  <p class="matches" id="banner" hidden></p>
+
+  <section class="step"><h2><span>1</span>What kind of EE work?</h2>
+    <p class="hint">Pick any that sound interesting, or none for all of them. General EE roles always come through.</p>
+    <div class="areas" id="areas"></div></section>
+
+  <section class="step"><h2><span>2</span>Which roles?</h2>
+    <p class="hint">Leave blank for all.</p>
+    <div class="chips" id="kinds"></div>
+    <p class="hint" style="margin-top:16px">When do you want to start, and when do you graduate? Internships and co-ops use your start; new grad roles use your graduation year. Leave either on "Any" to see everything.</p>
+    <div id="when"></div></section>
+
+  <section class="step"><h2><span>3</span>Where?</h2>
+    <p class="hint">Leave blank for anywhere in the US. Remote roles always count.</p>
+    <div class="chips" id="states"></div>
+    <p class="hint" style="margin-top:14px">Work style</p><div class="chips" id="work"></div></section>
+
+  <section class="step"><h2><span>4</span>Dream companies</h2>
+    <p class="hint">You'll get their roles right away, even outside your other choices.</p>
+    <div id="favorites"></div></section>
+
+  <section class="step"><h2><span>5</span>Anything else? <span class="small">(optional)</span></h2>
+    <div class="row"><label class="small">Pay at least $<input class="field" type="number" id="min_pay" min="0" max="200" style="width:80px"> /hr</label></div>
+    <label class="check small"><input type="checkbox" id="quick"> Quick applications only (one page and your resume)</label>
+    <label class="check small"><input type="checkbox" id="no_citizen"> Skip roles needing US citizenship, a green card or clearance</label>
+    <label class="check small"><input type="checkbox" id="need_sponsor"> Skip roles that won't sponsor a visa</label>
+    </section>
+
+  <section class="step"><h2><span>6</span>Your skills <span class="small">(optional)</span></h2>
+    <p class="hint">Type a skill and press Enter or click Add.</p>
+    <div id="skills"></div></section>
+
+  <p class="matches" id="matches"></p>
+
+  <section class="step" id="email-step"><h2><span>7</span>Where should we send them?</h2>
+    <div id="signup"></div>
+    <div class="unsub"><span id="unsub-ic"></span><div><b>You can stop anytime.</b> Every email we send has an <b>Unsubscribe</b> button at the bottom.
+      One click stops all emails right away, with no sign-in needed. You can also pause or turn alerts back on from this page.</div></div></section>
+  <footer>Your email is only used to send these alerts. We never share or sell it.</footer>
+</main></div>
+
+<script src="common.js?v=11"></script>
+<script>
+chrome("alerts");
+let data = {jobs: [], skills: []}, sb = null, user = null, sub = null;
+
+function count() {
+  const n = data.jobs.filter(j => wants(prefs, j)).length;
+  $("matches").innerHTML = `Right now, <b>${n}</b> of ${data.jobs.length} open roles match these choices. <a href="./">See them</a>`;
+}
+function form() {
+  $("areas").innerHTML = Object.entries(SECTORS).map(([k, [name, kiss]]) => `<label class="area-opt">
+    <input type="checkbox" value="${k}" ${prefs.sectors.includes(k) ? "checked" : ""}><div><b>${name}</b><span>${kiss}</span></div></label>`).join("");
+  $("areas").onchange = () => { prefs.sectors = [...$("areas").querySelectorAll("input:checked")].map(i => i.value); savePrefs(); count(); };
+  chips($("kinds"), "kinds", KINDS, count);
+  whenPicker($("when"), count);
+  chips($("states"), "states", STATES, count);
+  chips($("work"), "work", WORK, count);
+  tagInput($("skills"), "skills", null, count, "Type a skill", fixSkill);
+  tagInput($("favorites"), "favorites", companyLogos(data), count, "Add a company, e.g. SpaceX");
+  $("min_pay").value = prefs.min_pay || "";
+  $("quick").checked = prefs.max_ease === 1;
+  $("no_citizen").checked = prefs.no_citizen;
+  $("need_sponsor").checked = prefs.need_sponsor;
+  count();
+}
+$("min_pay").oninput = e => { prefs.min_pay = Math.max(0, +e.target.value || 0); savePrefs(); count(); };
+$("quick").onchange = e => { prefs.max_ease = e.target.checked ? 1 : 3; savePrefs(); count(); };
+for (const id of ["no_citizen", "need_sponsor"]) $(id).onchange = e => { prefs[id] = e.target.checked; savePrefs(); count(); };
+
+// ---------- sign-up (Supabase: the emailed link confirms the address; one row per subscriber) ----------
+function signup(note = "") {
+  const box = $("signup");
+  const freq = `<label class="check small"><input type="radio" name="freq" value="instant" ${prefs.frequency !== "daily" ? "checked" : ""}> As soon as roles are posted</label>
+    <label class="check small"><input type="radio" name="freq" value="daily" ${prefs.frequency === "daily" ? "checked" : ""}> One summary each morning (8am Pacific)</label>`;
+  if (!SUPABASE_URL) { box.innerHTML = `<p class="muted">Email alerts open soon. Your choices above are saved in this browser until then.</p>`; return; }
+  if (!user) {
+    box.innerHTML = `<form id="go">${freq}<div class="row" style="margin-top:12px">
+        <input class="field" type="email" id="email" required autocomplete="email" placeholder="you@school.edu" aria-label="Email" style="flex:1 1 240px">
+        <button class="btn" type="submit">Send me roles</button></div></form>
+      <p class="hint note">We'll email you a link to confirm. Already signed up? Enter your email to change or pause your alerts.</p>
+      <p class="note" aria-live="polite">${esc(note)}</p>`;
+    $("go").onsubmit = async e => {
+      e.preventDefault();
+      if (!sb) return signup("Still loading, try again in a second.");
+      store("pending", true);
+      const {error} = await sb.auth.signInWithOtp({email: $("email").value.trim(), options: {emailRedirectTo: location.origin + location.pathname}});
+      signup(error ? `Couldn't send the link: ${error.message}` : "Check your inbox and click the link. Alerts start once you confirm.");
+    };
+  } else {
+    box.innerHTML = `<p style="margin-top:0">Signed in as <b>${esc(user.email)}</b>. Your alerts are <b>${sub?.active ? "on" : "paused"}</b>.</p>${freq}
+      <div class="row" style="margin-top:12px"><button class="btn" id="save">Save my choices</button>
+        <button class="btn quiet" id="pause">${sub?.active ? "Pause alerts" : "Turn alerts on"}</button>
+        <button class="btn quiet" id="out">Sign out</button></div>
+      <p class="note" aria-live="polite">${esc(note)}</p>`;
+    $("save").onclick = () => save(true, "Saved. Your next alert uses these choices.");
+    $("pause").onclick = () => save(!sub?.active, sub?.active ? "Alerts paused." : "Alerts are on.");
+    $("out").onclick = () => sb.auth.signOut();
+  }
+  box.querySelectorAll("input[name=freq]").forEach(r => r.onchange = () => { prefs.frequency = r.value; savePrefs(); });
+}
+async function save(active, note) {
+  const {data: row, error} = await sb.from("subscribers").upsert({id: user.id, email: user.email, prefs, active}).select("prefs,active").single();
+  if (!error) sub = row;
+  signup(error ? `Couldn't save: ${error.message}` : note);
+}
+async function signedIn(session) {
+  user = session?.user || null;
+  if (!user) { sub = null; return signup(); }
+  const {data: row} = await sb.from("subscribers").select("prefs,active").eq("id", user.id).maybeSingle();
+  sub = row;
+  if (row) {  // returning subscriber: show their saved choices rather than whatever this browser had
+    prefs = {...DEFAULT, ...row.prefs}; savePrefs(); form();
+    return signup(load("pending", false) ? "Welcome back. These are your saved choices." : "");
+  }
+  if (load("pending", false)) { store("pending", false); return save(true, "You're in. New roles that match will land in your inbox."); }
+  signup();
+}
+
+(async () => {
+  data = await loadJobs();
+  $("unsub-ic").outerHTML = svg("bell");
+  form(); signup();
+  if (!SUPABASE_URL) return;
+  const {createClient} = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/+esm");
+  sb = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  const token = new URLSearchParams(location.search).get("unsub");
+  if (token) {
+    const {error} = await sb.rpc("unsubscribe", {token});
+    $("banner").textContent = error ? "That unsubscribe link didn't work. Enter your email below to pause your alerts." : "You're unsubscribed. We won't email you again.";
+    $("banner").hidden = false;
+    history.replaceState(null, "", location.pathname);
+  }
+  sb.auth.onAuthStateChange((_, session) => setTimeout(() => signedIn(session)));  // never await Supabase inside this callback
+})();
+</script>
+</body>
+</html>
