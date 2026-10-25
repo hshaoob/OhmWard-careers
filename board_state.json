@@ -1,10 +1,10 @@
 {
 "amazon": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "apple": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 false
 ],
 "ashby|1password": [
@@ -300,7 +300,7 @@ false
 false
 ],
 "ashby|allen-control-systems": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|allica-bank": [
@@ -312,7 +312,7 @@ false
 false
 ],
 "ashby|alloyenterprises": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|alphalifesci": [
@@ -664,7 +664,7 @@ false
 false
 ],
 "ashby|clickhouse": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|clipboard": [
@@ -740,7 +740,7 @@ false
 false
 ],
 "ashby|contoro": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|coram-ai": [
@@ -756,7 +756,7 @@ false
 false
 ],
 "ashby|cowboyspace": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|creatify": [
@@ -868,7 +868,7 @@ false
 false
 ],
 "ashby|dyna-robotics": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|e-source": [
@@ -1196,7 +1196,7 @@ false
 false
 ],
 "ashby|h3x-technologies": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|hadrian-automation": [
@@ -1244,7 +1244,7 @@ false
 false
 ],
 "ashby|helion": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|heliux": [
@@ -1828,7 +1828,7 @@ false
 false
 ],
 "ashby|odys-aviation": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|odysseyml": [
@@ -1968,7 +1968,7 @@ false
 false
 ],
 "ashby|persona.ai": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|phia": [
@@ -2140,7 +2140,7 @@ false
 false
 ],
 "ashby|reflect-orbital": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|reflexrobotics": [
@@ -2180,7 +2180,7 @@ false
 false
 ],
 "ashby|reviserobotics": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|rho": [
@@ -2204,7 +2204,7 @@ false
 false
 ],
 "ashby|rivianvw.tech": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|rollout": [
@@ -2240,7 +2240,7 @@ false
 false
 ],
 "ashby|saronic": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|sauna.ai": [
@@ -2464,7 +2464,7 @@ false
 false
 ],
 "ashby|tensorwave": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|terminal": [
@@ -2492,7 +2492,7 @@ false
 false
 ],
 "ashby|the-exploration-company": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|thumbtack": [
@@ -2556,7 +2556,7 @@ false
 false
 ],
 "ashby|trm-labs": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|trovy": [
@@ -2712,7 +2712,7 @@ false
 false
 ],
 "ashby|whoop": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ashby|windborne-systems": [
@@ -2784,7 +2784,7 @@ false
 false
 ],
 "bamboo|berkshiregrey": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "bamboo|bga": [
@@ -2812,7 +2812,7 @@ false
 false
 ],
 "bamboo|dubak": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "bamboo|eposnowgroup": [
@@ -2876,7 +2876,7 @@ false
 false
 ],
 "bamboo|phihong": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "bamboo|pictonmahoney": [
@@ -2896,11 +2896,11 @@ false
 false
 ],
 "bamboo|ruekertmielke": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "bamboo|safransed": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "bamboo|selectorsoftware": [
@@ -2932,7 +2932,7 @@ false
 false
 ],
 "bamboo|upike": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "bamboo|versafile1": [
@@ -2940,19 +2940,19 @@ true
 false
 ],
 "bamboo|vestalcorporation": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "bytedance|https://api.lifeattiktok.com/api/v1/public/supplier/search/job/posts|tiktok|https://lifeattiktok.com/search/": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 false
 ],
 "bytedance|https://jobs.bytedance.com/api/v1/search/job/posts|en|https://jobs.bytedance.com/en/position/": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 false
 ],
 "ef|apply.careers.microsoft.com|microsoft.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|bostonscientific.eightfold.ai|bostonscientific.com": [
@@ -2960,27 +2960,27 @@ true
 true
 ],
 "ef|careers.appliedmaterials.com|appliedmaterials.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|careers.lamresearch.com|lamresearch.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|careers.qualcomm.com|qualcomm.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|eaton.eightfold.ai|eaton.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|johndeere.eightfold.ai|johndeere.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|lockheedmartin.eightfold.ai|lockheedmartin.com": [
-"2026-10-25T08:00+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|paypal.eightfold.ai|paypal.com": [
@@ -2988,7 +2988,7 @@ true
 false
 ],
 "ef|qualcomm.eightfold.ai|qualcomm.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "ef|ralliant.eightfold.ai|ralliant.com": [
@@ -3068,7 +3068,7 @@ false
 false
 ],
 "gh|accuweather": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|acluinternships": [
@@ -3100,7 +3100,7 @@ false
 false
 ],
 "gh|advancedspace": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|advancedtechnologyservices": [
@@ -3160,7 +3160,7 @@ true
 false
 ],
 "gh|alarmcom": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|albedo": [
@@ -3208,7 +3208,7 @@ false
 false
 ],
 "gh|amca": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|amendconsulting": [
@@ -3252,7 +3252,7 @@ false
 false
 ],
 "gh|apexcompanies": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|appian": [
@@ -3332,7 +3332,7 @@ false
 false
 ],
 "gh|asteraearlycareer2027": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|asteralabs": [
@@ -3340,7 +3340,7 @@ true
 false
 ],
 "gh|astranis": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|atek": [
@@ -3360,7 +3360,7 @@ false
 false
 ],
 "gh|atoms": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|attentionarc": [
@@ -3420,7 +3420,7 @@ false
 false
 ],
 "gh|axon": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|axontalentcommunity": [
@@ -3484,7 +3484,7 @@ false
 false
 ],
 "gh|bgeinc": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|bgeinccampus": [
@@ -3992,7 +3992,7 @@ false
 false
 ],
 "gh|dvtrading": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|earnin": [
@@ -4124,7 +4124,7 @@ false
 false
 ],
 "gh|fairlife": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|fanaticscollectibles": [
@@ -4172,7 +4172,7 @@ false
 false
 ],
 "gh|figureai": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|financialtechnologypartners": [
@@ -4224,7 +4224,7 @@ false
 false
 ],
 "gh|formlabs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|forteracorporation": [
@@ -4272,7 +4272,7 @@ false
 false
 ],
 "gh|fspco-op012325": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|furtherearlycareer": [
@@ -4328,7 +4328,7 @@ false
 false
 ],
 "gh|generalmatter": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|genevatrading": [
@@ -4460,7 +4460,7 @@ false
 false
 ],
 "gh|haizelabs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|hankooktireamericacorp": [
@@ -4548,7 +4548,7 @@ false
 false
 ],
 "gh|hyannisportresearch": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|icapitalnetwork": [
@@ -4668,7 +4668,7 @@ false
 false
 ],
 "gh|inversionspace": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|ionq": [
@@ -4728,11 +4728,11 @@ false
 false
 ],
 "gh|k2spacecorporation": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|kairospower": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|katalyst": [
@@ -4760,7 +4760,7 @@ false
 false
 ],
 "gh|knowbe4": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|koalafi": [
@@ -4828,7 +4828,7 @@ false
 false
 ],
 "gh|lgelectronics": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|lhvuk": [
@@ -4912,7 +4912,7 @@ false
 false
 ],
 "gh|mastercontrol": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|mavenclinic": [
@@ -4956,7 +4956,7 @@ false
 false
 ],
 "gh|memx": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|mercury": [
@@ -4988,7 +4988,7 @@ false
 false
 ],
 "gh|mill": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|miopartners": [
@@ -5032,7 +5032,7 @@ false
 false
 ],
 "gh|morsecorpcoop": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|moxxidigital": [
@@ -5076,7 +5076,7 @@ true
 false
 ],
 "gh|nationallifeinsurancecompany": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|nationalpublicradioinc": [
@@ -5096,7 +5096,7 @@ false
 true
 ],
 "gh|newsbreak": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|newsela": [
@@ -5132,7 +5132,7 @@ false
 false
 ],
 "gh|nisc": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|nmi": [
@@ -5180,7 +5180,7 @@ false
 false
 ],
 "gh|olsson": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|omadahealth": [
@@ -5264,7 +5264,7 @@ false
 false
 ],
 "gh|otter": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|oura": [
@@ -5272,7 +5272,7 @@ true
 false
 ],
 "gh|pacificfusion": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|pacvue": [
@@ -5320,11 +5320,11 @@ false
 false
 ],
 "gh|pdtpartners": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|peakenergy": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|pendartechnologies": [
@@ -5520,7 +5520,7 @@ false
 false
 ],
 "gh|rebuildmanufacturing": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|redwoodmaterials": [
@@ -5552,7 +5552,7 @@ false
 false
 ],
 "gh|rfsmart": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|rhombuspower": [
@@ -5592,7 +5592,7 @@ true
 false
 ],
 "gh|rocketlab": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|rocketlawyer": [
@@ -5612,7 +5612,7 @@ false
 false
 ],
 "gh|ruggedrobotics": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|sage49": [
@@ -5680,7 +5680,7 @@ false
 false
 ],
 "gh|secretariatadvisorsllc": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|selffinancial": [
@@ -5932,7 +5932,7 @@ false
 false
 ],
 "gh|syskahennessy": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|systemstechnologyresearch": [
@@ -5972,7 +5972,7 @@ false
 false
 ],
 "gh|technergetics": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|tegnainc": [
@@ -5984,7 +5984,7 @@ false
 false
 ],
 "gh|tenet3": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|tenon": [
@@ -6184,7 +6184,7 @@ false
 false
 ],
 "gh|ursamajor": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|usafacts": [
@@ -6212,11 +6212,11 @@ true
 false
 ],
 "gh|veeamsoftware": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|vegaamericas": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|verainstituteofjustice": [
@@ -6232,7 +6232,7 @@ false
 false
 ],
 "gh|verkada": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|vestmark": [
@@ -6256,7 +6256,7 @@ false
 false
 ],
 "gh|virtu": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "gh|viseai": [
@@ -6452,7 +6452,7 @@ true
 true
 ],
 "icims|americas-cookmedical.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|analystcareers-analysisgroup.icims.com": [
@@ -6476,7 +6476,7 @@ false
 false
 ],
 "icims|campus-us-corgan.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|canada-english-avisonyoung.icims.com": [
@@ -6508,7 +6508,7 @@ false
 false
 ],
 "icims|careers-aluminumdynamics.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-americansystems.icims.com": [
@@ -6556,7 +6556,7 @@ false
 false
 ],
 "icims|careers-barrios.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-benjaminmoore.icims.com": [
@@ -6736,7 +6736,7 @@ false
 false
 ],
 "icims|careers-dewberry.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-dialysisclinic.icims.com": [
@@ -6752,7 +6752,7 @@ false
 false
 ],
 "icims|careers-e2.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-e2optics.icims.com": [
@@ -6784,7 +6784,7 @@ false
 false
 ],
 "icims|careers-emcorgroup.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-emerus.icims.com": [
@@ -6804,7 +6804,7 @@ false
 false
 ],
 "icims|careers-enfra.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-entarian.icims.com": [
@@ -6812,7 +6812,7 @@ true
 false
 ],
 "icims|careers-epeconsulting.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-esinc.icims.com": [
@@ -6852,7 +6852,7 @@ false
 false
 ],
 "icims|careers-framatome.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-fsg.icims.com": [
@@ -6860,7 +6860,7 @@ true
 false
 ],
 "icims|careers-fsse-srmc.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-ftidefense.icims.com": [
@@ -6884,7 +6884,7 @@ true
 true
 ],
 "icims|careers-gdeb.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-gdms.icims.com": [
@@ -7024,7 +7024,7 @@ false
 false
 ],
 "icims|careers-jobyaviation.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-jocogov.icims.com": [
@@ -7060,7 +7060,7 @@ false
 false
 ],
 "icims|careers-kimley-horn.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-kinaxis.icims.com": [
@@ -7164,7 +7164,7 @@ false
 false
 ],
 "icims|careers-nikkiso.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-northside.icims.com": [
@@ -7172,7 +7172,7 @@ true
 false
 ],
 "icims|careers-novelis.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-nrgmr.icims.com": [
@@ -7216,7 +7216,7 @@ false
 false
 ],
 "icims|careers-peraton.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-persistentsystems.icims.com": [
@@ -7252,7 +7252,7 @@ false
 false
 ],
 "icims|careers-quanta.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-rambus.icims.com": [
@@ -7268,7 +7268,7 @@ false
 false
 ],
 "icims|careers-resonetics.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-ringpower.icims.com": [
@@ -7288,7 +7288,7 @@ false
 true
 ],
 "icims|careers-rsandh.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-ruralking.icims.com": [
@@ -7296,7 +7296,7 @@ true
 true
 ],
 "icims|careers-sargentlundy.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-sas.icims.com": [
@@ -7304,11 +7304,11 @@ true
 false
 ],
 "icims|careers-scires.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-scsengineers.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-sdsurf.icims.com": [
@@ -7320,7 +7320,7 @@ false
 false
 ],
 "icims|careers-sentinel.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-sev1tech.icims.com": [
@@ -7332,7 +7332,7 @@ false
 false
 ],
 "icims|careers-sig.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-slco.icims.com": [
@@ -7356,11 +7356,11 @@ false
 false
 ],
 "icims|careers-sri.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-sscgp.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-ssoe.icims.com": [
@@ -7444,7 +7444,7 @@ false
 false
 ],
 "icims|careers-usa-titanmaterials.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-usopen.icims.com": [
@@ -7464,7 +7464,7 @@ false
 false
 ],
 "icims|careers-uwmcareers.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careers-vch.icims.com": [
@@ -7524,7 +7524,7 @@ false
 false
 ],
 "icims|careersenus-itt-inc.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|careersuk-cpicardgroup.icims.com": [
@@ -7604,7 +7604,7 @@ false
 false
 ],
 "icims|homeoffice-na-urbn.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|ideas-sas.icims.com": [
@@ -7624,15 +7624,15 @@ false
 false
 ],
 "icims|jobs-bylight.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|jobs-cesi.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|jobs-challp.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|jobs-childrensmercykc.icims.com": [
@@ -7704,7 +7704,7 @@ false
 false
 ],
 "icims|talent-marvin.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|ukcareers-lw.icims.com": [
@@ -7720,7 +7720,7 @@ false
 false
 ],
 "icims|uscareeropenings-alliancelaundry.icims.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|uscareers-acuren.icims.com": [
@@ -7740,7 +7740,7 @@ false
 true
 ],
 "icims|uscareers-lennox.icims.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "icims|uscareers-pepsico.icims.com": [
@@ -7772,7 +7772,7 @@ false
 false
 ],
 "jibe|careers.aarp.org": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.akima.com": [
@@ -7780,7 +7780,7 @@ true
 false
 ],
 "jibe|careers.amd.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.andersen.com": [
@@ -7792,7 +7792,7 @@ false
 false
 ],
 "jibe|careers.arcfield.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.astrion.us": [
@@ -7812,7 +7812,7 @@ false
 true
 ],
 "jibe|careers.cdmsmith.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.certara.com": [
@@ -7836,7 +7836,7 @@ false
 false
 ],
 "jibe|careers.comed.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.ctg.com": [
@@ -7848,7 +7848,7 @@ false
 false
 ],
 "jibe|careers.div.energy": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.docusign.com": [
@@ -7872,7 +7872,7 @@ false
 false
 ],
 "jibe|careers.garmin.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.gov2x.com": [
@@ -7920,7 +7920,7 @@ true
 false
 ],
 "jibe|careers.leviton.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.lutron.com": [
@@ -7928,7 +7928,7 @@ true
 false
 ],
 "jibe|careers.mastec.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.mcdean.com": [
@@ -7944,7 +7944,7 @@ false
 true
 ],
 "jibe|careers.na.panasonic.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.navistar.com": [
@@ -7976,7 +7976,7 @@ true
 false
 ],
 "jibe|careers.pplweb.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.principal.com": [
@@ -7992,7 +7992,7 @@ false
 false
 ],
 "jibe|careers.rivian.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.sabresystems.com": [
@@ -8028,7 +8028,7 @@ true
 false
 ],
 "jibe|careers.trccompanies.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|careers.ulta.com": [
@@ -8120,7 +8120,7 @@ false
 true
 ],
 "jibe|spa.jibeapply.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "jibe|talent.goldbelt.com": [
@@ -8220,7 +8220,7 @@ false
 false
 ],
 "lever|acronaviation": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|actian": [
@@ -8448,7 +8448,7 @@ false
 false
 ],
 "lever|cfsenergy": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|cgsfederal": [
@@ -8592,7 +8592,7 @@ false
 false
 ],
 "lever|espace": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|evr": [
@@ -8608,7 +8608,7 @@ false
 false
 ],
 "lever|extremenetworks": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|farfetch": [
@@ -8640,7 +8640,7 @@ false
 false
 ],
 "lever|foth": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|fullscript": [
@@ -8760,7 +8760,7 @@ false
 false
 ],
 "lever|immuta": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|imo-online": [
@@ -8808,7 +8808,7 @@ false
 false
 ],
 "lever|kitware": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|kpler": [
@@ -8820,7 +8820,7 @@ false
 false
 ],
 "lever|latitudeinc": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|lcbcchurch": [
@@ -9032,7 +9032,7 @@ false
 false
 ],
 "lever|pivotal": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|pivotenergy": [
@@ -9236,7 +9236,7 @@ false
 false
 ],
 "lever|solopulseco": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|sonarsource": [
@@ -9268,7 +9268,7 @@ false
 false
 ],
 "lever|standtogether": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|steerbridge": [
@@ -9284,7 +9284,7 @@ false
 false
 ],
 "lever|sunsrce": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|sunwatercapital": [
@@ -9340,7 +9340,7 @@ false
 false
 ],
 "lever|thea.energy": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|theinformationlab": [
@@ -9412,7 +9412,7 @@ false
 false
 ],
 "lever|upscale-ai": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|valkyrietrading": [
@@ -9516,7 +9516,7 @@ false
 false
 ],
 "lever|wyetechllc": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "lever|xcimer": [
@@ -9548,15 +9548,15 @@ false
 false
 ],
 "oracle|cva.fa.us1.oraclecloud.com|CX_3": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|ebcs.fa.em2.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|ebgj.fa.us2.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|ebhu.fa.us2.oraclecloud.com|CX": [
@@ -9612,7 +9612,7 @@ false
 false
 ],
 "oracle|edbz.fa.us2.oraclecloud.com|CX": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|edel.fa.us2.oraclecloud.com|CX_2001": [
@@ -9624,7 +9624,7 @@ false
 false
 ],
 "oracle|edqv.fa.us2.oraclecloud.com|CX": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|edxn.fa.us2.oraclecloud.com|CX_5001": [
@@ -9680,7 +9680,7 @@ false
 true
 ],
 "oracle|egay.fa.us6.oraclecloud.com|CX_4001": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|egcu.fa.us6.oraclecloud.com|CX": [
@@ -9700,7 +9700,7 @@ false
 false
 ],
 "oracle|egup.fa.us2.oraclecloud.com|CX": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|ehac.fa.us6.oraclecloud.com|CX_1": [
@@ -9768,7 +9768,7 @@ true
 false
 ],
 "oracle|ejov.fa.ca2.oraclecloud.com|CX": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|ejrz.fa.us2.oraclecloud.com|CX_5001": [
@@ -9848,7 +9848,7 @@ false
 false
 ],
 "oracle|emit.fa.ca3.oraclecloud.com|CX_2001": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|emje.fa.us6.oraclecloud.com|CX_1001": [
@@ -9948,7 +9948,7 @@ false
 false
 ],
 "oracle|fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com|CSXCareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com|CX_3001": [
@@ -9960,7 +9960,7 @@ true
 false
 ],
 "oracle|fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-eqpz-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
@@ -9972,7 +9972,7 @@ false
 false
 ],
 "oracle|fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001": [
@@ -9988,7 +9988,7 @@ false
 true
 ],
 "oracle|fa-espx-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-essf-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
@@ -9996,7 +9996,7 @@ true
 false
 ],
 "oracle|fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com|nfcu": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-etgw-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
@@ -10004,7 +10004,7 @@ true
 false
 ],
 "oracle|fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com|FirstEnergyCareers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-etnb-saasfaprod1.fa.ocs.oraclecloud.com|CX_1001": [
@@ -10032,7 +10032,7 @@ false
 false
 ],
 "oracle|fa-eups-saasfaprod1.fa.ocs.oraclecloud.com|ULSolutionsCareers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
@@ -10056,7 +10056,7 @@ false
 true
 ],
 "oracle|fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com|CX_1": [
@@ -10192,7 +10192,7 @@ false
 false
 ],
 "oracle|hcwt.fa.us2.oraclecloud.com|CX": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|hcxs.fa.us2.oraclecloud.com|CX_1": [
@@ -10204,7 +10204,7 @@ false
 false
 ],
 "oracle|hdde.fa.us2.oraclecloud.com|CX": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|hdep.fa.us2.oraclecloud.com|CX": [
@@ -10216,7 +10216,7 @@ false
 false
 ],
 "oracle|hdhl.fa.us6.oraclecloud.com|CX_1": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|hdid.fa.us2.oraclecloud.com|CX_1": [
@@ -10224,7 +10224,7 @@ true
 false
 ],
 "oracle|hdjq.fa.us2.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|hdks.fa.ca2.oraclecloud.com|CX_1": [
@@ -10252,11 +10252,11 @@ false
 false
 ],
 "oracle|hdsn.fa.us6.oraclecloud.com|CX_1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|iadugs.fa.ocs.oraclecloud.com|CX_1001": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|iawmqy.fa.ocs.oraclecloud.com|careers": [
@@ -10280,7 +10280,7 @@ false
 false
 ],
 "oracle|ibqbjb.fa.ocs.oraclecloud.com|Honeywell": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "oracle|ibwujb.fa.ocs.oraclecloud.com|CX_1001": [
@@ -10324,7 +10324,7 @@ false
 false
 ],
 "phenom|careers.hpe.com/us/en": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "phenom|careers.itw.com/global/en": [
@@ -10348,7 +10348,7 @@ true
 false
 ],
 "phenom|careers.tranetechnologies.com/global/en": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "phenom|careers.united.com/global/en": [
@@ -10364,15 +10364,15 @@ false
 false
 ],
 "phenom|careers.zimmerbiomet.com/global/en": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "phenom|careers.zimmerbiomet.com/us/en": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "phenom|jobs.ascension.org/us/en": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "phenom|jobs.baesystems.com/global/en": [
@@ -10432,7 +10432,7 @@ false
 false
 ],
 "rippling|apexanalytix-careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|ascentt": [
@@ -10452,7 +10452,7 @@ false
 false
 ],
 "rippling|blue-water-autonomy": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|bonsairoboticsmain": [
@@ -10460,7 +10460,7 @@ true
 false
 ],
 "rippling|boom-supersonic": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|briowt": [
@@ -10628,7 +10628,7 @@ false
 false
 ],
 "rippling|foundation-robotics": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|fragile": [
@@ -10668,7 +10668,7 @@ false
 false
 ],
 "rippling|intelliguard": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|intersection": [
@@ -10712,7 +10712,7 @@ false
 false
 ],
 "rippling|lightguide": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|linea-energy": [
@@ -10772,7 +10772,7 @@ false
 false
 ],
 "rippling|mytra": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|naxo": [
@@ -10880,7 +10880,7 @@ false
 false
 ],
 "rippling|power-takeoff-careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|proper-voltage": [
@@ -10940,7 +10940,7 @@ false
 false
 ],
 "rippling|studyfetch": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|supernova-technology": [
@@ -10960,7 +10960,7 @@ false
 false
 ],
 "rippling|tavernresearch": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|theguarantors-open-positions": [
@@ -10992,7 +10992,7 @@ false
 false
 ],
 "rippling|veryable-careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "rippling|vortex-companies-llc": [
@@ -11020,7 +11020,7 @@ false
 true
 ],
 "sfrmk|assaabloy.jobs2web.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|career.sonepar.com": [
@@ -11036,11 +11036,11 @@ false
 false
 ],
 "sfrmk|careers.aflac.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.agcocorp.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.anglogoldashanti.com": [
@@ -11048,7 +11048,7 @@ true
 false
 ],
 "sfrmk|careers.aps.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.bauschlomb.com": [
@@ -11064,7 +11064,7 @@ false
 false
 ],
 "sfrmk|careers.chsinc.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.cintas.com": [
@@ -11076,7 +11076,7 @@ false
 true
 ],
 "sfrmk|careers.dominionenergy.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.duke.edu": [
@@ -11084,7 +11084,7 @@ true
 true
 ],
 "sfrmk|careers.hfsinclair.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.hubbell.com": [
@@ -11092,7 +11092,7 @@ true
 true
 ],
 "sfrmk|careers.huntingtoningalls.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.jetblue.com": [
@@ -11100,11 +11100,11 @@ true
 false
 ],
 "sfrmk|careers.kodak.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.leggett.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.mediaocean.com": [
@@ -11128,11 +11128,11 @@ false
 false
 ],
 "sfrmk|careers.pge.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 false
 ],
 "sfrmk|careers.phillips66.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.qorvo.com": [
@@ -11144,7 +11144,7 @@ true
 false
 ],
 "sfrmk|careers.safran-dsi.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.skyworksinc.com": [
@@ -11152,7 +11152,7 @@ true
 true
 ],
 "sfrmk|careers.thehersheycompany.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|careers.wecenergygroup.com": [
@@ -11164,7 +11164,7 @@ false
 true
 ],
 "sfrmk|corningjobs.corning.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|internaljobs.centurylink.com": [
@@ -11188,7 +11188,7 @@ false
 false
 ],
 "sfrmk|jobs.armstrong.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|jobs.atos.net": [
@@ -11196,7 +11196,7 @@ true
 false
 ],
 "sfrmk|jobs.bmwgroup.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|jobs.cmc.com": [
@@ -11208,7 +11208,7 @@ true
 true
 ],
 "sfrmk|jobs.entergy.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|jobs.erieinsurance.com": [
@@ -11272,11 +11272,11 @@ false
 false
 ],
 "sfrmk|jobs.nucor.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|jobs.paccar.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|jobs.pseg.com": [
@@ -11288,7 +11288,7 @@ false
 false
 ],
 "sfrmk|jobs.supermicro.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 false
 ],
 "sfrmk|jobs.ulalaunch.com": [
@@ -11300,15 +11300,15 @@ true
 false
 ],
 "sfrmk|mhicareers.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|mycareer.heraeus.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|seagatecareers.com": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sfrmk|www.careerprofile.epiroc.com": [
@@ -11320,7 +11320,7 @@ false
 true
 ],
 "sfrmk|www.optimumcareers.com": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|3SBusinessCorporationInc1": [
@@ -11340,7 +11340,7 @@ false
 false
 ],
 "sr|AECOM2": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|AGTechnologies1": [
@@ -11452,7 +11452,7 @@ false
 false
 ],
 "sr|AristaNetworks": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|ArkaInfotechInc": [
@@ -11484,7 +11484,7 @@ false
 false
 ],
 "sr|AveryDennison": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|AxleInformaticsLLC": [
@@ -11520,7 +11520,7 @@ false
 false
 ],
 "sr|BoschGroup": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|BostonEngineeringCorporation": [
@@ -11536,7 +11536,7 @@ false
 false
 ],
 "sr|CaliforniaClosets": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|CaliforniaISO": [
@@ -11612,7 +11612,7 @@ false
 false
 ],
 "sr|Continental": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|CornerstoneBuildingBrandsCareers": [
@@ -11696,7 +11696,7 @@ false
 false
 ],
 "sr|EgisGroup": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|EncephaloInvestments": [
@@ -11872,7 +11872,7 @@ false
 false
 ],
 "sr|KOSTALGroup": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|KansheInfotech": [
@@ -11892,11 +11892,11 @@ false
 false
 ],
 "sr|KnobelsdorffEnterprises": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|KrgTechnologyInc": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|LGCGroup": [
@@ -11904,7 +11904,7 @@ true
 false
 ],
 "sr|LLNL": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|Laxir1": [
@@ -11936,7 +11936,7 @@ false
 false
 ],
 "sr|Loram1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|LouisDreyfusCompany": [
@@ -12040,7 +12040,7 @@ false
 false
 ],
 "sr|OxfamAmerica2": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|PAConsulting": [
@@ -12056,7 +12056,7 @@ false
 false
 ],
 "sr|PilotCompany": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|PioneerDataSystemsInc": [
@@ -12112,7 +12112,7 @@ false
 false
 ],
 "sr|RESPECInc": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|RRDonnelley": [
@@ -12160,7 +12160,7 @@ false
 false
 ],
 "sr|SATechnologiesInc4": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|SBTGlobalInc": [
@@ -12168,7 +12168,7 @@ true
 false
 ],
 "sr|SGS": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|SOCOTECUKIreland": [
@@ -12244,7 +12244,7 @@ false
 false
 ],
 "sr|SmithsGroup2": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|Socotec": [
@@ -12264,7 +12264,7 @@ true
 false
 ],
 "sr|SopraSteria1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|SourceDirectTalent": [
@@ -12312,7 +12312,7 @@ false
 false
 ],
 "sr|SyngentaGroup": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|TBD20261012CrownInnovationsInc": [
@@ -12428,7 +12428,7 @@ false
 true
 ],
 "sr|Versant3": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|Version1": [
@@ -12448,11 +12448,11 @@ true
 false
 ],
 "sr|WabashValleyPowerAlliance": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|Wabtec": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|Wavestone1": [
@@ -12508,7 +12508,7 @@ false
 false
 ],
 "sr|prosidianconsulting": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "sr|somfygroup": [
@@ -12524,7 +12524,7 @@ false
 false
 ],
 "taleo|aarcorp.taleo.net|aar_mobile": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "taleo|aicpa.taleo.net|aicpa_mobilecs": [
@@ -12564,7 +12564,7 @@ false
 false
 ],
 "taleo|massanf.taleo.net|ex": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "taleo|mtstatejobs.taleo.net|200": [
@@ -12572,7 +12572,7 @@ true
 false
 ],
 "taleo|textron.taleo.net|textron": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "taleo|utsw.taleo.net|2": [
@@ -12628,11 +12628,11 @@ false
 false
 ],
 "wd|aba.wd1.myworkdayjobs.com|aba|aba": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|abb.wd3.myworkdayjobs.com|abb|external_career_page": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|abbluecross.wd3.myworkdayjobs.com|abbluecross|careers": [
@@ -12740,7 +12740,7 @@ false
 false
 ],
 "wd|aep.wd1.myworkdayjobs.com|aep|AEPCareerSite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|aero.wd5.myworkdayjobs.com|aero|external": [
@@ -12748,7 +12748,7 @@ true
 true
 ],
 "wd|aes.wd1.myworkdayjobs.com|aes|AES_US": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|aes.wd1.myworkdayjobs.com|aes|aes_clean_energy": [
@@ -12776,7 +12776,7 @@ false
 false
 ],
 "wd|agiliti.wd5.myworkdayjobs.com|agiliti|careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|agilonhealth.wd1.myworkdayjobs.com|agilonhealth|External": [
@@ -12784,11 +12784,11 @@ true
 false
 ],
 "wd|aig.wd1.myworkdayjobs.com|aig|aig": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|aig.wd1.myworkdayjobs.com|aig|early_careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|aimco.wd10.myworkdayjobs.com|aimco|AIMCoCareers": [
@@ -12796,7 +12796,7 @@ true
 false
 ],
 "wd|airliquidehr.wd3.myworkdayjobs.com|airliquidehr|AirLiquideExternalCareer": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|airliquidehr.wd3.myworkdayjobs.com|airliquidehr|airgasexternalcareer": [
@@ -12824,11 +12824,11 @@ false
 false
 ],
 "wd|albemarle.wd5.myworkdayjobs.com|albemarle|ketjenexternal": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|albertamotorassociation.wd3.myworkdayjobs.com|albertamotorassociation|ama": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|alcoa.wd5.myworkdayjobs.com|alcoa|Careers": [
@@ -12864,7 +12864,7 @@ false
 false
 ],
 "wd|allegion.wd5.myworkdayjobs.com|allegion|careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|allegromicro.wd5.myworkdayjobs.com|allegromicro|allegrocareers": [
@@ -12872,7 +12872,7 @@ true
 false
 ],
 "wd|alliance.wd3.myworkdayjobs.com|alliance|nissanjobs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|alliancedata.wd5.myworkdayjobs.com|alliancedata|breadfinancial_us": [
@@ -12928,7 +12928,7 @@ false
 false
 ],
 "wd|amat.wd1.myworkdayjobs.com|amat|External": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ambarella.wd108.myworkdayjobs.com|ambarella|ambarella": [
@@ -12940,7 +12940,7 @@ true
 true
 ],
 "wd|ameren.wd1.myworkdayjobs.com|ameren|External": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ameresco.wd5.myworkdayjobs.com|ameresco|Ameresco": [
@@ -12952,7 +12952,7 @@ true
 false
 ],
 "wd|americancentury.wd5.myworkdayjobs.com|americancentury|AmericanCenturyInvestments": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|americanfidelity.wd5.myworkdayjobs.com|americanfidelity|External": [
@@ -12996,7 +12996,7 @@ false
 false
 ],
 "wd|analogdevices.wd1.myworkdayjobs.com|analogdevices|External": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ancestry.wd501.myworkdayjobs.com|ancestry|Careers": [
@@ -13008,7 +13008,7 @@ false
 true
 ],
 "wd|andersonsinc.wd1.myworkdayjobs.com|andersonsinc|TheAndersonsCareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ankura.wd5.myworkdayjobs.com|ankura|ankura": [
@@ -13024,7 +13024,7 @@ false
 true
 ],
 "wd|applebank.wd5.myworkdayjobs.com|applebank|applebankcareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|applied.wd501.myworkdayjobs.com|applied|applied": [
@@ -13036,7 +13036,7 @@ false
 false
 ],
 "wd|aptiv.wd5.myworkdayjobs.com|aptiv|aptiv_careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|aramsco.wd1.myworkdayjobs.com|aramsco|aramscocareers": [
@@ -13060,7 +13060,7 @@ false
 false
 ],
 "wd|arcticwolf.wd1.myworkdayjobs.com|arcticwolf|External": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ardian.wd103.myworkdayjobs.com|ardian|ArdianCareers": [
@@ -13188,7 +13188,7 @@ false
 false
 ],
 "wd|atcllc.wd5.myworkdayjobs.com|atcllc|atcllc": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|athenahealth.wd1.myworkdayjobs.com|athenahealth|External": [
@@ -13336,7 +13336,7 @@ false
 false
 ],
 "wd|badgermeter.wd5.myworkdayjobs.com|badgermeter|US_CareerSite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|bah.wd1.myworkdayjobs.com|bah|Confidential": [
@@ -13344,7 +13344,7 @@ true
 false
 ],
 "wd|bah.wd1.myworkdayjobs.com|bah|bah_jobs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|baincapital.wd1.myworkdayjobs.com|baincapital|External_Public": [
@@ -13352,11 +13352,11 @@ true
 false
 ],
 "wd|baird.wd1.myworkdayjobs.com|baird|careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|bakerhughes.wd5.myworkdayjobs.com|bakerhughes|BakerHughes": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|bakertilly.wd5.myworkdayjobs.com|bakertilly|BTCareers": [
@@ -13400,11 +13400,11 @@ false
 true
 ],
 "wd|barrywehmiller.wd1.myworkdayjobs.com|barrywehmiller|BWCareers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|barrywehmiller.wd1.myworkdayjobs.com|barrywehmiller|BWConfidential": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|basspro.wd1.myworkdayjobs.com|basspro|careers": [
@@ -13456,7 +13456,7 @@ false
 false
 ],
 "wd|bcbsla.wd1.myworkdayjobs.com|bcbsla|Generation_Blue": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|bcbsla.wd1.myworkdayjobs.com|bcbsla|external": [
@@ -13496,7 +13496,7 @@ false
 false
 ],
 "wd|bdx.wd1.myworkdayjobs.com|bdx|EXTERNAL_CAREER_SITE_USA": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|bdx.wd1.myworkdayjobs.com|bdx|US_EARLY_TALENT_SITE": [
@@ -13592,7 +13592,7 @@ false
 false
 ],
 "wd|blueorigin.wd5.myworkdayjobs.com|blueorigin|blueorigin": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|bluescopenac.wd5.myworkdayjobs.com|bluescopenac|BNACareers": [
@@ -13624,7 +13624,7 @@ false
 false
 ],
 "wd|boeing.wd1.myworkdayjobs.com|boeing|INTERN": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|boeing.wd1.myworkdayjobs.com|boeing|external_careers": [
@@ -13640,11 +13640,11 @@ true
 false
 ],
 "wd|borgwarner.wd5.myworkdayjobs.com|borgwarner|BorgWarner_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|boseallaboutme.wd503.myworkdayjobs.com|boseallaboutme|Bose_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|bostondynamics.wd1.myworkdayjobs.com|bostondynamics|Boston_Dynamics": [
@@ -13716,7 +13716,7 @@ false
 false
 ],
 "wd|brookfield.wd5.myworkdayjobs.com|brookfield|brookfield": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|brookfield.wd5.myworkdayjobs.com|brookfield|brookfieldprivate": [
@@ -13780,7 +13780,7 @@ false
 true
 ],
 "wd|cadence.wd1.myworkdayjobs.com|cadence|External_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|cadence.wd1.myworkdayjobs.com|cadence|OpenEye_Careers": [
@@ -13824,7 +13824,7 @@ false
 false
 ],
 "wd|calistacorp.wd1.myworkdayjobs.com|calistacorp|calistabrice": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|calix.wd1.myworkdayjobs.com|calix|External": [
@@ -13852,7 +13852,7 @@ false
 false
 ],
 "wd|campbellsoup.wd5.myworkdayjobs.com|campbellsoup|externalcareers_globalsite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|campingworld.wd5.myworkdayjobs.com|campingworld|Jobs": [
@@ -13860,7 +13860,7 @@ true
 false
 ],
 "wd|canadiansolar.wd5.myworkdayjobs.com|canadiansolar|CanadianSolar": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|canadiantirecorporation.wd3.myworkdayjobs.com|canadiantirecorporation|Enterprise_External_Careers_Site": [
@@ -13872,7 +13872,7 @@ false
 false
 ],
 "wd|canvasinc.wd108.myworkdayjobs.com|canvasinc|Canvas": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|capgroup.wd1.myworkdayjobs.com|capgroup|capitalgroupcareers": [
@@ -13916,7 +13916,7 @@ true
 false
 ],
 "wd|cat.wd5.myworkdayjobs.com|cat|caterpillarcareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|cat.wd5.myworkdayjobs.com|cat|solarturbines": [
@@ -13928,7 +13928,7 @@ true
 false
 ],
 "wd|cboe.wd1.myworkdayjobs.com|cboe|External_Career_CBOE": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|cbrands.wd5.myworkdayjobs.com|cbrands|CBI_External_Careers": [
@@ -13968,7 +13968,7 @@ false
 false
 ],
 "wd|cenhud.wd5.myworkdayjobs.com|cenhud|cenhud": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|cenovus.wd3.myworkdayjobs.com|cenovus|careers": [
@@ -14012,7 +14012,7 @@ false
 false
 ],
 "wd|championx.wd1.myworkdayjobs.com|championx|championx_external": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|charlottenc.wd12.myworkdayjobs.com|charlottenc|citgov": [
@@ -14020,7 +14020,7 @@ true
 false
 ],
 "wd|chartermfg.wd5.myworkdayjobs.com|chartermfg|Charter_Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|chaucergroup.wd3.myworkdayjobs.com|chaucergroup|chaucer_group_careers": [
@@ -14040,7 +14040,7 @@ false
 false
 ],
 "wd|chevron.wd5.myworkdayjobs.com|chevron|University": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|chg.wd5.myworkdayjobs.com|chg|US_External_Career_Site": [
@@ -14052,7 +14052,7 @@ false
 false
 ],
 "wd|choicehotels.wd5.myworkdayjobs.com|choicehotels|External": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|chordenergy.wd1.myworkdayjobs.com|chordenergy|external": [
@@ -14076,7 +14076,7 @@ false
 false
 ],
 "wd|ciena.wd5.myworkdayjobs.com|ciena|Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|cigna.wd5.myworkdayjobs.com|cigna|cignacareers": [
@@ -14232,7 +14232,7 @@ false
 false
 ],
 "wd|comfortsystemsusa.wd1.myworkdayjobs.com|comfortsystemsusa|Corpcareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|commercebank.wd1.myworkdayjobs.com|commercebank|CommerceJobs": [
@@ -14336,7 +14336,7 @@ false
 false
 ],
 "wd|covestro.wd3.myworkdayjobs.com|covestro|cov_external": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|cox.wd1.myworkdayjobs.com|cox|Cox_External_Career_Site_1": [
@@ -14348,11 +14348,11 @@ false
 false
 ],
 "wd|cranecompany.wd5.myworkdayjobs.com|cranecompany|Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|creationtech.wd1.myworkdayjobs.com|creationtech|Creation": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|creditacceptance.wd5.myworkdayjobs.com|creditacceptance|Credit_Acceptance": [
@@ -14456,7 +14456,7 @@ false
 false
 ],
 "wd|danaher.wd1.myworkdayjobs.com|danaher|danaherjobs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|darktrace.wd3.myworkdayjobs.com|darktrace|DarktaceExternal": [
@@ -14532,7 +14532,7 @@ false
 false
 ],
 "wd|dexcom.wd1.myworkdayjobs.com|dexcom|Dexcom": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 false
 ],
 "wd|dfwairport.wd5.myworkdayjobs.com|dfwairport|External": [
@@ -14604,7 +14604,7 @@ false
 false
 ],
 "wd|draper.wd5.myworkdayjobs.com|draper|Draper_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|driscolls.wd5.myworkdayjobs.com|driscolls|driscolls": [
@@ -14616,7 +14616,7 @@ false
 false
 ],
 "wd|drivetime.wd1.myworkdayjobs.com|drivetime|DriveTime": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|dssmith.wd3.myworkdayjobs.com|dssmith|dss_internal": [
@@ -14628,7 +14628,7 @@ false
 true
 ],
 "wd|dtna.wd5.myworkdayjobs.com|dtna|dtna_external": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|duboischemicals.wd1.myworkdayjobs.com|duboischemicals|external": [
@@ -14636,7 +14636,7 @@ true
 false
 ],
 "wd|dukeenergy.wd1.myworkdayjobs.com|dukeenergy|search": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|dutchbros.wd1.myworkdayjobs.com|dutchbros|DBShops": [
@@ -14664,11 +14664,11 @@ false
 false
 ],
 "wd|ebi.wd5.myworkdayjobs.com|ebi|ebadcareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ebi.wd5.myworkdayjobs.com|ebi|ebicareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|echo.wd1.myworkdayjobs.com|echo|Echo_Logistics": [
@@ -14676,7 +14676,7 @@ true
 false
 ],
 "wd|ecolab.wd1.myworkdayjobs.com|ecolab|ecolab_external": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|econicpartners.wd501.myworkdayjobs.com|econicpartners|econicpartnerscareers": [
@@ -14708,7 +14708,7 @@ false
 false
 ],
 "wd|elevancehealth.wd1.myworkdayjobs.com|elevancehealth|ANT": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|elevancehealth.wd1.myworkdayjobs.com|elevancehealth|ELV-ET": [
@@ -14716,7 +14716,7 @@ true
 false
 ],
 "wd|elkay.wd1.myworkdayjobs.com|elkay|Elkay_External": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|embryriddle.wd1.myworkdayjobs.com|embryriddle|External": [
@@ -14768,15 +14768,15 @@ false
 true
 ],
 "wd|entegris.wd1.myworkdayjobs.com|entegris|entegriscareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|entrust.wd1.myworkdayjobs.com|entrust|entrustcareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|envista.wd1.myworkdayjobs.com|envista|envistacareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|eosenergystorage.wd1.myworkdayjobs.com|eosenergystorage|eos": [
@@ -14808,7 +14808,7 @@ false
 false
 ],
 "wd|ercot.wd1.myworkdayjobs.com|ercot|ercot_careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|erickson.wd108.myworkdayjobs.com|erickson|external": [
@@ -14864,7 +14864,7 @@ false
 false
 ],
 "wd|evonik.wd3.myworkdayjobs.com|evonik|External_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|exactsciences.wd1.myworkdayjobs.com|exactsciences|Exact_Sciences": [
@@ -14880,11 +14880,11 @@ false
 false
 ],
 "wd|expedia.wd108.myworkdayjobs.com|expedia|private": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|expedia.wd108.myworkdayjobs.com|expedia|search": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|extraspace.wd5.myworkdayjobs.com|extraspace|ESS_External": [
@@ -15000,7 +15000,7 @@ false
 false
 ],
 "wd|firstquality.wd5.myworkdayjobs.com|firstquality|firstquality": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|firstquantum.wd3.myworkdayjobs.com|firstquantum|First_Quantum_Careers": [
@@ -15028,7 +15028,7 @@ false
 true
 ],
 "wd|flir.wd1.myworkdayjobs.com|flir|flircareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|floridatech.wd5.myworkdayjobs.com|floridatech|FloridaTechCareers": [
@@ -15076,7 +15076,7 @@ false
 false
 ],
 "wd|formulaone.wd3.myworkdayjobs.com|formulaone|F1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|fortrea.wd1.myworkdayjobs.com|fortrea|Fortrea": [
@@ -15108,11 +15108,11 @@ false
 false
 ],
 "wd|freese.wd1.myworkdayjobs.com|freese|Freese_Nichols_External": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|freight.wd108.myworkdayjobs.com|freight|FXF_External_Career_Site": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|freseniusglobal.wd3.myworkdayjobs.com|freseniusglobal|FK_Careers": [
@@ -15124,7 +15124,7 @@ false
 false
 ],
 "wd|freudenberg.wd3.myworkdayjobs.com|freudenberg|freudenberg-group": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|frontiereconomics.wd3.myworkdayjobs.com|frontiereconomics|Frontier_Economics_Careers": [
@@ -15152,7 +15152,7 @@ false
 false
 ],
 "wd|gafsgi.wd5.myworkdayjobs.com|gafsgi|GAF_Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|gaig.wd1.myworkdayjobs.com|gaig|GAIG_External": [
@@ -15184,7 +15184,7 @@ false
 false
 ],
 "wd|geaerospace.wd5.myworkdayjobs.com|geaerospace|ge_externalsite": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|geha.wd5.myworkdayjobs.com|geha|GEHACareers": [
@@ -15192,7 +15192,7 @@ true
 false
 ],
 "wd|gehc.wd5.myworkdayjobs.com|gehc|GEHC_ExternalSite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|geico.wd1.myworkdayjobs.com|geico|External": [
@@ -15228,7 +15228,7 @@ false
 false
 ],
 "wd|gentex.wd5.myworkdayjobs.com|gentex|Gentex": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|gevernova.wd5.myworkdayjobs.com|gevernova|only_confidential_executive_recruiting": [
@@ -15236,11 +15236,11 @@ true
 true
 ],
 "wd|gevernova.wd5.myworkdayjobs.com|gevernova|vernova_externalsite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|gfs.wd5.myworkdayjobs.com|gfs|usjobs-gen-gfs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|gfs.wd5.myworkdayjobs.com|gfs|usprivate-gfs": [
@@ -15256,7 +15256,7 @@ false
 false
 ],
 "wd|gi.wd1.myworkdayjobs.com|gi|Global_Infrastructure": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|gia.wd1.myworkdayjobs.com|gia|GIA": [
@@ -15288,15 +15288,15 @@ false
 true
 ],
 "wd|globalhr.wd5.myworkdayjobs.com|globalhr|Private_Posting_No_TMP": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|globalhr.wd5.myworkdayjobs.com|globalhr|rec_rtx_ext_gateway": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|globusmedical.wd5.myworkdayjobs.com|globusmedical|GMED_Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|gnw.wd1.myworkdayjobs.com|gnw|GNW": [
@@ -15344,11 +15344,11 @@ false
 false
 ],
 "wd|graco.wd501.myworkdayjobs.com|graco|Graco_Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|granite.wd1.myworkdayjobs.com|granite|careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|graybar.wd1.myworkdayjobs.com|graybar|Careers": [
@@ -15356,7 +15356,7 @@ true
 false
 ],
 "wd|greatamerica.wd12.myworkdayjobs.com|greatamerica|greatamericacareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|greenheckgroup.wd5.myworkdayjobs.com|greenheckgroup|external": [
@@ -15468,7 +15468,7 @@ false
 false
 ],
 "wd|hcmportal.wd5.myworkdayjobs.com|hcmportal|Search": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|hcpss.wd1.myworkdayjobs.com|hcpss|hcpss": [
@@ -15488,7 +15488,7 @@ false
 false
 ],
 "wd|healthcare.wd1.myworkdayjobs.com|healthcare|search": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|healthfirst.wd1.myworkdayjobs.com|healthfirst|healthfirst": [
@@ -15504,7 +15504,7 @@ false
 false
 ],
 "wd|heidelbergmaterials.wd3.myworkdayjobs.com|heidelbergmaterials|global_hm_career_site": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|heinz.wd1.myworkdayjobs.com|heinz|KraftHeinz_Careers": [
@@ -15536,7 +15536,7 @@ false
 false
 ],
 "wd|highmarkhealth.wd1.myworkdayjobs.com|highmarkhealth|highmark": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|hilbgroup.wd5.myworkdayjobs.com|hilbgroup|HG-Careers": [
@@ -15564,15 +15564,15 @@ false
 false
 ],
 "wd|hmhw.wd12.myworkdayjobs.com|hmhw|hmh_careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|hntb.wd5.myworkdayjobs.com|hntb|hntb_careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|hntb.wd5.myworkdayjobs.com|hntb|hntb_university_careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|hoganas.wd3.myworkdayjobs.com|hoganas|Careers": [
@@ -15600,7 +15600,7 @@ false
 false
 ],
 "wd|hp.wd5.myworkdayjobs.com|hp|EXTEU-AC-CareerSite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|hp.wd5.myworkdayjobs.com|hp|externalcareersite": [
@@ -15612,7 +15612,7 @@ true
 false
 ],
 "wd|hpe.wd5.myworkdayjobs.com|hpe|jobsathpe": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|hpinc.wd5.myworkdayjobs.com|hpinc|hpinc": [
@@ -15652,7 +15652,7 @@ false
 false
 ],
 "wd|huntsman.wd1.myworkdayjobs.com|huntsman|Huntsman": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|huron.wd1.myworkdayjobs.com|huron|huroncareers": [
@@ -15704,7 +15704,7 @@ true
 false
 ],
 "wd|idahopowercompany.wd1.myworkdayjobs.com|idahopowercompany|external": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|idexcorp.wd5.myworkdayjobs.com|idexcorp|idex_careers": [
@@ -15716,7 +15716,7 @@ false
 false
 ],
 "wd|iheartmedia.wd5.myworkdayjobs.com|iheartmedia|External_iHM": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|iheartmedia.wd5.myworkdayjobs.com|iheartmedia|iHM_Technology_Site": [
@@ -15724,7 +15724,7 @@ true
 false
 ],
 "wd|ijm.wd5.myworkdayjobs.com|ijm|careers-ijm": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|iko.wd3.myworkdayjobs.com|iko|iko_careers": [
@@ -15792,7 +15792,7 @@ false
 false
 ],
 "wd|insulet.wd5.myworkdayjobs.com|insulet|insuletcareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|intactfc.wd3.myworkdayjobs.com|intactfc|intactfc": [
@@ -15804,7 +15804,7 @@ false
 false
 ],
 "wd|integer.wd1.myworkdayjobs.com|integer|External": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|integralads.wd1.myworkdayjobs.com|integralads|IAScareers": [
@@ -15816,11 +15816,11 @@ false
 false
 ],
 "wd|integritymarketing.wd1.myworkdayjobs.com|integritymarketing|Integrity": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|intel.wd1.myworkdayjobs.com|intel|external": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|intelcomgroup.wd3.myworkdayjobs.com|intelcomgroup|Intelcom": [
@@ -15876,7 +15876,7 @@ false
 false
 ],
 "wd|irhythmtech.wd5.myworkdayjobs.com|irhythmtech|irhythm": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ironmountain.wd5.myworkdayjobs.com|ironmountain|iron-mountain-jobs": [
@@ -15900,7 +15900,7 @@ false
 false
 ],
 "wd|itron.wd5.myworkdayjobs.com|itron|Early_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|itron.wd5.myworkdayjobs.com|itron|Itron": [
@@ -15912,7 +15912,7 @@ true
 true
 ],
 "wd|jabil.wd5.myworkdayjobs.com|jabil|jabil_careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|jackson.wd1.myworkdayjobs.com|jackson|Jackson_Careers": [
@@ -15944,7 +15944,7 @@ false
 false
 ],
 "wd|jci.wd5.myworkdayjobs.com|jci|jci": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|jcrew.wd1.myworkdayjobs.com|jcrew|FriendsFamilyCareers": [
@@ -15996,7 +15996,7 @@ false
 false
 ],
 "wd|jm.wd103.myworkdayjobs.com|jm|External": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|jmfamily.wd1.myworkdayjobs.com|jmfamily|jmfamily_external": [
@@ -16012,7 +16012,7 @@ false
 false
 ],
 "wd|johnsonelectric.wd3.myworkdayjobs.com|johnsonelectric|Career_JE": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|jpi.wd1.myworkdayjobs.com|jpi|jpicareers": [
@@ -16080,7 +16080,7 @@ true
 false
 ],
 "wd|kla.wd1.myworkdayjobs.com|kla|UR": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|kla.wd1.myworkdayjobs.com|kla|annarbor": [
@@ -16148,7 +16148,7 @@ false
 false
 ],
 "wd|latticesemi.wd5.myworkdayjobs.com|latticesemi|latticesemiconductorscareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 false
 ],
 "wd|lazboy.wd1.myworkdayjobs.com|lazboy|lzbcareers": [
@@ -16168,7 +16168,7 @@ false
 false
 ],
 "wd|leidos.wd5.myworkdayjobs.com|leidos|external": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|lendingclub.wd1.myworkdayjobs.com|lendingclub|external": [
@@ -16192,7 +16192,7 @@ false
 false
 ],
 "wd|lifefitness.wd1.myworkdayjobs.com|lifefitness|searchLFN": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|lifetime.wd1.myworkdayjobs.com|lifetime|lifetime": [
@@ -16252,7 +16252,7 @@ false
 false
 ],
 "wd|lmcu.wd5.myworkdayjobs.com|lmcu|lmcucareersite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|lmu.wd1.myworkdayjobs.com|lmu|careers": [
@@ -16268,7 +16268,7 @@ false
 false
 ],
 "wd|lonza.wd3.myworkdayjobs.com|lonza|lonza_careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|lowes.wd5.myworkdayjobs.com|lowes|LWS_External_CS": [
@@ -16280,15 +16280,15 @@ true
 false
 ],
 "wd|lplfinancial.wd1.myworkdayjobs.com|lplfinancial|university": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|lseg.wd3.myworkdayjobs.com|lseg|Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|lseg.wd3.myworkdayjobs.com|lseg|Graduate_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|lsu.wd1.myworkdayjobs.com|lsu|LSU": [
@@ -16328,7 +16328,7 @@ false
 false
 ],
 "wd|maersk.wd3.myworkdayjobs.com|maersk|APMT_Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|maersk.wd3.myworkdayjobs.com|maersk|maersk_careers": [
@@ -16340,7 +16340,7 @@ false
 false
 ],
 "wd|magna.wd3.myworkdayjobs.com|magna|magna": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|manulife.wd3.myworkdayjobs.com|manulife|MFCJH_Jobs": [
@@ -16368,7 +16368,7 @@ false
 false
 ],
 "wd|marmon.wd501.myworkdayjobs.com|marmon|Marmon_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|marmon.wd501.myworkdayjobs.com|marmon|Marmon_MSIP_Internships": [
@@ -16392,7 +16392,7 @@ true
 false
 ],
 "wd|masco.wd1.myworkdayjobs.com|masco|Masco": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|masco.wd1.myworkdayjobs.com|masco|deltafaucet": [
@@ -16412,7 +16412,7 @@ false
 true
 ],
 "wd|mastercard.wd1.myworkdayjobs.com|mastercard|Campus": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|mastercard.wd1.myworkdayjobs.com|mastercard|CorporateCareers": [
@@ -16432,11 +16432,11 @@ false
 false
 ],
 "wd|maxar.wd1.myworkdayjobs.com|maxar|Vantor": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|mbda.wd3.myworkdayjobs.com|mbda|MBDA-UK": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|mcafee.wd1.myworkdayjobs.com|mcafee|external": [
@@ -16516,7 +16516,7 @@ false
 false
 ],
 "wd|menasha.wd12.myworkdayjobs.com|menasha|menashacorp": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|merative.wd12.myworkdayjobs.com|merative|External_Career_Site": [
@@ -16528,7 +16528,7 @@ false
 false
 ],
 "wd|meredith.wd5.myworkdayjobs.com|meredith|EXT": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|methodisthealth.wd5.myworkdayjobs.com|methodisthealth|MLH": [
@@ -16560,7 +16560,7 @@ false
 false
 ],
 "wd|michelinhr.wd3.myworkdayjobs.com|michelinhr|Michelin": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|micron.wd1.myworkdayjobs.com|micron|External": [
@@ -16648,7 +16648,7 @@ false
 false
 ],
 "wd|monolithicpower.wd12.myworkdayjobs.com|monolithicpower|MPS_Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|montage.wd1.myworkdayjobs.com|montage|Montage_International": [
@@ -16656,7 +16656,7 @@ true
 false
 ],
 "wd|moog.wd5.myworkdayjobs.com|moog|moog_external_career_site": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|morganlewis.wd5.myworkdayjobs.com|morganlewis|morganlewis": [
@@ -16680,7 +16680,7 @@ true
 false
 ],
 "wd|motorolasolutions.wd5.myworkdayjobs.com|motorolasolutions|careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|movadogroup.wd1.myworkdayjobs.com|movadogroup|careers": [
@@ -16812,7 +16812,7 @@ false
 true
 ],
 "wd|nationwide.wd1.myworkdayjobs.com|nationwide|Nationwide_Career": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nationwidechildrens.wd5.myworkdayjobs.com|nationwidechildrens|NCHCareers": [
@@ -16900,7 +16900,7 @@ false
 false
 ],
 "wd|nexstar.wd5.myworkdayjobs.com|nexstar|nexstar": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|ngc.wd1.myworkdayjobs.com|ngc|Northrop_Grumman_External_Site": [
@@ -16908,11 +16908,11 @@ true
 true
 ],
 "wd|niagarawater.wd5.myworkdayjobs.com|niagarawater|niagara": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nidec.wd1.myworkdayjobs.com|nidec|nidec": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nike.wd1.myworkdayjobs.com|nike|nke": [
@@ -16924,7 +16924,7 @@ false
 false
 ],
 "wd|njm.wd1.myworkdayjobs.com|njm|njm": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nordic.wd1.myworkdayjobs.com|nordic|Nordic": [
@@ -16932,7 +16932,7 @@ true
 false
 ],
 "wd|nordsonhcm.wd501.myworkdayjobs.com|nordsonhcm|nordsoncareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nordstrom.wd501.myworkdayjobs.com|nordstrom|nordstrom_careers": [
@@ -16972,7 +16972,7 @@ false
 false
 ],
 "wd|nrel.wd5.myworkdayjobs.com|nrel|NLR": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nrf.wd3.myworkdayjobs.com|nrf|External": [
@@ -16996,7 +16996,7 @@ false
 false
 ],
 "wd|ntst.wd1.myworkdayjobs.com|ntst|careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nvent.wd5.myworkdayjobs.com|nvent|nVent": [
@@ -17004,15 +17004,15 @@ true
 true
 ],
 "wd|nvidia.wd5.myworkdayjobs.com|nvidia|nvidiaexternalcareersite": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nwis.wd12.myworkdayjobs.com|nwis|NW": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nxp.wd3.myworkdayjobs.com|nxp|careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|nyp.wd1.myworkdayjobs.com|nyp|nypcareers": [
@@ -17076,11 +17076,11 @@ true
 false
 ],
 "wd|oneok.wd1.myworkdayjobs.com|oneok|ONEOK": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|oneok.wd1.myworkdayjobs.com|oneok|ONEOK_Early_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|oneoncology.wd1.myworkdayjobs.com|oneoncology|OneOncology": [
@@ -17172,7 +17172,7 @@ false
 true
 ],
 "wd|oxy.wd5.myworkdayjobs.com|oxy|UniversityRelations": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|pacificlife.wd1.myworkdayjobs.com|pacificlife|PacificLifeCareers": [
@@ -17188,7 +17188,7 @@ false
 false
 ],
 "wd|paloaltonetworks.wd5.myworkdayjobs.com|paloaltonetworks|panwexternalcareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|papajohns.wd1.myworkdayjobs.com|papajohns|papajohnscareers": [
@@ -17196,7 +17196,7 @@ true
 false
 ],
 "wd|parsons.wd5.myworkdayjobs.com|parsons|search": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|patientfirst.wd5.myworkdayjobs.com|patientfirst|patientfirst": [
@@ -17236,7 +17236,7 @@ false
 false
 ],
 "wd|pg.wd5.myworkdayjobs.com|pg|1000": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|phigroup.wd12.myworkdayjobs.com|phigroup|phihealthcareers": [
@@ -17244,7 +17244,7 @@ true
 false
 ],
 "wd|philips.wd3.myworkdayjobs.com|philips|jobs-and-careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|phinia.wd5.myworkdayjobs.com|phinia|PHINIA_Careers": [
@@ -17288,7 +17288,7 @@ false
 false
 ],
 "wd|plantemoran.wd1.myworkdayjobs.com|plantemoran|pmexternalcareers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|plastipak.wd1.myworkdayjobs.com|plastipak|Plastipak": [
@@ -17384,7 +17384,7 @@ false
 false
 ],
 "wd|prologis.wd5.myworkdayjobs.com|prologis|Prologis_External_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|proofpoint.wd5.myworkdayjobs.com|proofpoint|proofpointcareers": [
@@ -17524,7 +17524,7 @@ false
 false
 ],
 "wd|rb.wd5.myworkdayjobs.com|rb|FRS": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|rbc.wd3.myworkdayjobs.com|rbc|ExternalPrivatePostingStudents": [
@@ -17532,7 +17532,7 @@ true
 false
 ],
 "wd|rbc.wd3.myworkdayjobs.com|rbc|RBCEARLYTALENT1": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|rbc.wd3.myworkdayjobs.com|rbc|rbcglobal1": [
@@ -17560,7 +17560,7 @@ false
 false
 ],
 "wd|regalrexnord.wd1.myworkdayjobs.com|regalrexnord|careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|regeneron.wd1.myworkdayjobs.com|regeneron|Careers": [
@@ -17608,7 +17608,7 @@ false
 false
 ],
 "wd|repsol.wd3.myworkdayjobs.com|repsol|Repsol": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|republic.wd5.myworkdayjobs.com|republic|Republic": [
@@ -17708,11 +17708,11 @@ false
 false
 ],
 "wd|rockwellautomation.wd1.myworkdayjobs.com|rockwellautomation|External-Rockwell-Automation-Early-Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|rockwellautomation.wd1.myworkdayjobs.com|rockwellautomation|External_Rockwell_Automation": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|rockwoolgroup.wd3.myworkdayjobs.com|rockwoolgroup|ROCKWOOL": [
@@ -17728,7 +17728,7 @@ false
 false
 ],
 "wd|rollsroyce.wd3.myworkdayjobs.com|rollsroyce|Intern_Graduate": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|rollsroyce.wd3.myworkdayjobs.com|rollsroyce|professional": [
@@ -17800,7 +17800,7 @@ false
 true
 ],
 "wd|salesforce.wd12.myworkdayjobs.com|salesforce|Futureforce_Internships": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|salesforce.wd12.myworkdayjobs.com|salesforce|Salesforce_Research": [
@@ -17824,7 +17824,7 @@ false
 false
 ],
 "wd|sanofi.wd3.myworkdayjobs.com|sanofi|SanofiCareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|santander.wd3.myworkdayjobs.com|santander|SantanderCareers": [
@@ -17852,7 +17852,7 @@ false
 false
 ],
 "wd|sbdinc.wd1.myworkdayjobs.com|sbdinc|Stanley_Black_Decker_Career_Site": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|scanhealthplan.wd108.myworkdayjobs.com|scanhealthplan|scancareers": [
@@ -17880,7 +17880,7 @@ false
 false
 ],
 "wd|sec.wd3.myworkdayjobs.com|sec|Samsung_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|sedgwick.wd1.myworkdayjobs.com|sedgwick|Sedgwick": [
@@ -17896,7 +17896,7 @@ false
 false
 ],
 "wd|selinc.wd1.myworkdayjobs.com|selinc|SEL": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|seminolehardrock.wd503.myworkdayjobs.com|seminolehardrock|seminolehardrockcareers": [
@@ -17912,7 +17912,7 @@ false
 false
 ],
 "wd|sensata.wd1.myworkdayjobs.com|sensata|Sensata-Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|sentara.wd1.myworkdayjobs.com|sentara|SCS": [
@@ -17940,7 +17940,7 @@ false
 false
 ],
 "wd|shawinc.wd1.myworkdayjobs.com|shawinc|External": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|shell.wd3.myworkdayjobs.com|shell|ShellCareers": [
@@ -17952,7 +17952,7 @@ false
 false
 ],
 "wd|sierraspace.wd1.myworkdayjobs.com|sierraspace|Sierra_Space_External_Career_Site": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|sifive.wd1.myworkdayjobs.com|sifive|sifivecareers": [
@@ -17968,7 +17968,7 @@ false
 false
 ],
 "wd|silabs.wd1.myworkdayjobs.com|silabs|SiliconlabsCareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|silgancontainers.wd1.myworkdayjobs.com|silgancontainers|silgan": [
@@ -18000,7 +18000,7 @@ false
 false
 ],
 "wd|slihrms.wd3.myworkdayjobs.com|slihrms|careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|slu.wd5.myworkdayjobs.com|slu|Careers": [
@@ -18020,7 +18020,7 @@ false
 false
 ],
 "wd|smucker.wd5.myworkdayjobs.com|smucker|US_External_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|snapfinance.wd1.myworkdayjobs.com|snapfinance|snap_external_careers": [
@@ -18028,7 +18028,7 @@ true
 false
 ],
 "wd|snc.wd1.myworkdayjobs.com|snc|snc_external_career_site": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|snhu.wd503.myworkdayjobs.com|snhu|External_Career_Site": [
@@ -18152,7 +18152,7 @@ false
 false
 ],
 "wd|starfish.wd501.myworkdayjobs.com|starfish|Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|starrcompanies.wd1.myworkdayjobs.com|starrcompanies|careers": [
@@ -18216,7 +18216,7 @@ false
 false
 ],
 "wd|stryker.wd1.myworkdayjobs.com|stryker|StrykerCareers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|stvinc.wd5.myworkdayjobs.com|stvinc|stv": [
@@ -18428,7 +18428,7 @@ false
 false
 ],
 "wd|theirc.wd1.myworkdayjobs.com|theirc|External_Careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|thejacksonlaboratory.wd503.myworkdayjobs.com|thejacksonlaboratory|External_JAX": [
@@ -18440,7 +18440,7 @@ false
 false
 ],
 "wd|theocc.wd5.myworkdayjobs.com|theocc|careers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|therapybrands.wd1.myworkdayjobs.com|therapybrands|EnsoraHealth": [
@@ -18448,7 +18448,7 @@ true
 false
 ],
 "wd|thermofisher.wd5.myworkdayjobs.com|thermofisher|ThermoFisherCareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|thinkbrg.wd5.myworkdayjobs.com|thinkbrg|BRG_External_Career_Site": [
@@ -18540,11 +18540,11 @@ false
 false
 ],
 "wd|travelers.wd5.myworkdayjobs.com|travelers|External": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|treehouse.wd1.myworkdayjobs.com|treehouse|TreeHouseCareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|trellix.wd1.myworkdayjobs.com|trellix|EnterpriseCareers": [
@@ -18580,7 +18580,7 @@ false
 false
 ],
 "wd|trumpf.wd3.myworkdayjobs.com|trumpf|TRUMPF_Students": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|trustage.wd1.myworkdayjobs.com|trustage|TruStage": [
@@ -18588,11 +18588,11 @@ true
 false
 ],
 "wd|trwd.wd1.myworkdayjobs.com|trwd|TRWDCareers": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|tsc.wd12.myworkdayjobs.com|tsc|TSC-Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|tsys.wd1.myworkdayjobs.com|tsys|tsys": [
@@ -18600,7 +18600,7 @@ true
 false
 ],
 "wd|ttc.wd1.myworkdayjobs.com|ttc|Toro_External_Careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|tti.wd1.myworkdayjobs.com|tti|Milwaukee": [
@@ -18608,7 +18608,7 @@ true
 false
 ],
 "wd|tti.wd1.myworkdayjobs.com|tti|tti_pe": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|tucsonaz.wd1.myworkdayjobs.com|tucsonaz|Tucson_Talent": [
@@ -18804,7 +18804,7 @@ false
 false
 ],
 "wd|uva.wd1.myworkdayjobs.com|uva|uvastudentjobs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|valeo.wd3.myworkdayjobs.com|valeo|valeo_jobs": [
@@ -18868,7 +18868,7 @@ true
 false
 ],
 "wd|vermeer.wd5.myworkdayjobs.com|vermeer|externalcareersite": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|vertexinc.wd1.myworkdayjobs.com|vertexinc|VertexInc": [
@@ -18896,7 +18896,7 @@ false
 false
 ],
 "wd|viavisolutions.wd1.myworkdayjobs.com|viavisolutions|careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|vibrant.wd5.myworkdayjobs.com|vibrant|VEH_EXTERNAL_CAREER_SITE": [
@@ -18912,7 +18912,7 @@ false
 false
 ],
 "wd|vishay.wd3.myworkdayjobs.com|vishay|VishayCareers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|vitalant.wd12.myworkdayjobs.com|vitalant|Careers": [
@@ -18940,7 +18940,7 @@ false
 false
 ],
 "wd|vrtx.wd501.myworkdayjobs.com|vrtx|vertex_careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|vrtx.wd501.myworkdayjobs.com|vrtx|vertex_intern": [
@@ -18988,7 +18988,7 @@ false
 false
 ],
 "wd|wattswater.wd5.myworkdayjobs.com|wattswater|Intern-External": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|wattswater.wd5.myworkdayjobs.com|wattswater|external": [
@@ -18996,7 +18996,7 @@ true
 false
 ],
 "wd|wawa.wd1.myworkdayjobs.com|wawa|careers": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|waystar.wd1.myworkdayjobs.com|waystar|Waystar": [
@@ -19096,11 +19096,11 @@ false
 false
 ],
 "wd|wd5.myworkdaysite.com|microchiphr|External": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|wd5.myworkdaysite.com|oatey|Oatey_External_": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|wd5.myworkdaysite.com|sysco|syscocareers": [
@@ -19136,7 +19136,7 @@ false
 false
 ],
 "wd|westlake.wd1.myworkdayjobs.com|westlake|westlake": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|wexinc.wd5.myworkdayjobs.com|wexinc|WEXInc": [
@@ -19208,7 +19208,7 @@ false
 false
 ],
 "wd|wonder.wd1.myworkdayjobs.com|wonder|WG": [
-"2026-10-25T08:30+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|woodmac.wd3.myworkdayjobs.com|woodmac|woodmaccareers": [
@@ -19216,7 +19216,7 @@ true
 false
 ],
 "wd|woodward.wd5.myworkdayjobs.com|woodward|woodward": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|workday.wd5.myworkdayjobs.com|workday|Workday_Early_Career": [
@@ -19272,7 +19272,7 @@ false
 false
 ],
 "wd|xenergy.wd5.myworkdayjobs.com|xenergy|X-energyUS": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "wd|xylem.wd5.myworkdayjobs.com|xylem|xylem-careers": [
@@ -19652,7 +19652,7 @@ false
 false
 ],
 "workable|interimage": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "workable|javelin-global-commodities": [
@@ -19736,7 +19736,7 @@ false
 false
 ],
 "workable|msr-fsr": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "workable|murphy-research": [
@@ -19772,7 +19772,7 @@ false
 true
 ],
 "workable|onlogic-inc": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "workable|onyx-capital-group": [
@@ -19856,7 +19856,7 @@ false
 false
 ],
 "workable|red-rabbit-robotics": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "workable|resource-innovations": [
@@ -20004,7 +20004,7 @@ false
 false
 ],
 "workable|thorlabs": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "workable|tickpick": [
@@ -20012,7 +20012,7 @@ true
 false
 ],
 "workable|tmeic-corporation-americas": [
-"2026-10-25T08:15+00:00",
+"2026-10-25T08:45+00:00",
 true
 ],
 "workable|tokamak-energy": [
