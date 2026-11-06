@@ -1,6 +1,6 @@
 Companies with open EE internships whose own career site can't be polled; their roles come from Simplify.
 EE roles | newest listed on Simplify | company (site)
-      46 | Oct 18 09:37 AM        | Tesla (www.tesla.com)
+      45 | Oct 18 09:37 AM        | Tesla (www.tesla.com)
       13 | Nov 05 02:28 AM        | Meta (www.metacareers.com)
        3 | Nov 05 11:15 PM        | DwyerOmega (recruiting.paylocity.com)
        2 | Aug 03 06:21 AM        | Nebo (neboagency.applytojob.com)
